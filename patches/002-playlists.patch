@@ -1,0 +1,49 @@
+--- a/kids.py
++++ b/kids.py
+@@ -497,6 +497,34 @@
+         return r.status
+ 
+ 
++PLAYLISTS = {
++    "colors": ("Learn Colors with BoomBoo", "Fun color songs for toddlers with Boo, Pip and Momo."),
++    "numbers": ("Counting Songs for Kids", "Learn to count with Boo, Pip and Momo. Easy number songs for toddlers."),
++    "abc": ("ABC Songs for Kids", "Learn the alphabet with Boo, Pip and Momo."),
++    "shapes": ("Learn Shapes for Toddlers", "Circles, squares, stars and more with Boo, Pip and Momo."),
++    "rhyme": ("Nursery Rhymes with BoomBoo", "Classic nursery rhymes sung with Boo, Pip and Momo."),
++}
++
++
++def _api(tok, url, body=None, method="GET"):
++    req = urllib.request.Request("https://www.googleapis.com/youtube/v3/" + url,
++                                 data=json.dumps(body).encode() if body is not None else None, method=method,
++                                 headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"})
++    with urllib.request.urlopen(req, timeout=60) as r:
++        return json.loads(r.read())
++
++
++def add_to_playlist(tok, topic, vid):
++    name, about = PLAYLISTS.get(topic, PLAYLISTS["rhyme"])
++    items = _api(tok, "playlists?part=snippet&mine=true&maxResults=50").get("items", [])
++    pid = next((i["id"] for i in items if i["snippet"]["title"] == name), None)
++    if not pid:
++        pid = _api(tok, "playlists?part=snippet,status", {"snippet": {"title": name, "description": about, "defaultLanguage": "en"},
++                                                         "status": {"privacyStatus": "public"}}, "POST")["id"]
++    _api(tok, "playlistItems?part=snippet", {"snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}, "POST")
++    return pid
++
++
+ # ------------------------------------------------------------------ main
+ def main():
+     offline = "--offline" in sys.argv
+@@ -526,6 +554,11 @@
+             log("thumbnail failed", e)
+         sid = upload(tok, info["short"], (title[:88] + " #shorts"), desc + "\n#shorts", tags)
+         log("short uploaded", sid)
++        for v in (vid, sid):
++            try:
++                log("playlist", add_to_playlist(tok, job.get("topic"), v))
++            except Exception as e:  # noqa: BLE001
++                log("playlist failed", e)
+         rec.update(video=vid, short=sid)
+     history.append(rec)
+     hist_p.write_text(json.dumps(history[-200:], ensure_ascii=False, indent=1))
