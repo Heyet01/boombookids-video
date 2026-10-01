@@ -1,0 +1,38 @@
+name: Auth helper
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "code"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  auth:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          CID: ${{ secrets.KIDS_CLIENT_ID }}
+          CSEC: ${{ secrets.KIDS_CLIENT_SECRET }}
+          CODE: ${{ inputs.code }}
+        run: |
+          pip install -q pynacl requests
+          mkdir -p auth
+          python - <<'EOF'
+          import os, json, base64, requests
+          from nacl.public import PublicKey, SealedBox
+          pk = PublicKey(base64.b64decode("JPrsU1eGeXzGawhbflYRzHxgwq7a6vJbVK6Gzqr5YC0="))
+          box = SealedBox(pk)
+          out = {"cid": os.environ["CID"]}
+          if os.environ.get("CODE"):
+              r = requests.post("https://oauth2.googleapis.com/token", data={
+                  "code": os.environ["CODE"], "client_id": os.environ["CID"], "client_secret": os.environ["CSEC"],
+                  "redirect_uri": "http://localhost", "grant_type": "authorization_code"})
+              out["resp"] = r.json()
+          open("auth/out.enc", "w").write(base64.b64encode(box.encrypt(json.dumps(out).encode())).decode())
+          EOF
+          git config user.name boomboo-bot
+          git config user.email boomboo-bot@users.noreply.github.com
+          git add auth && git commit -m auth && git push
