@@ -1,0 +1,55 @@
+name: BoomBoo Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = do not upload, save preview"
+        required: false
+        default: "0"
+      topic:
+        description: "colors / numbers / abc / shapes / rhyme (empty = rotate)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boomboo
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy pillow edge-tts fonttools
+          mkdir -p assets
+          curl -sSL -o assets/EricaOne-Regular.ttf "https://github.com/google/fonts/raw/main/ofl/ericaone/EricaOne-Regular.ttf"
+          curl -sSL -o /tmp/Outfit.ttf "https://github.com/google/fonts/raw/main/ofl/outfit/Outfit%5Bwght%5D.ttf"
+          fonttools varLib.instancer /tmp/Outfit.ttf wght=700 -q -o assets/Outfit-Bold.ttf
+      - name: Make and upload video
+        env:
+          KIDS_GEMINI_KEY: ${{ secrets.KIDS_GEMINI_KEY }}
+          KIDS_CLIENT_ID: ${{ secrets.KIDS_CLIENT_ID }}
+          KIDS_CLIENT_SECRET: ${{ secrets.KIDS_CLIENT_SECRET }}
+          KIDS_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
+          KIDS_DRY_RUN: ${{ inputs.dry_run }}
+          KIDS_TOPIC: ${{ inputs.topic }}
+        run: python kids.py
+      - name: Save history / preview
+        if: always()
+        run: |
+          git config user.name "boomboo-bot"
+          git config user.email "boomboo-bot@users.noreply.github.com"
+          if [ "${{ inputs.dry_run }}" = "1" ] && [ -f out/long.mp4 ]; then
+            mkdir -p preview && cp out/long.mp4 out/short.mp4 out/thumb.jpg out/summary.json preview/
+            git add preview
+          fi
+          git add history.json || true
+          git commit -m "BoomBoo update" && git push || true
