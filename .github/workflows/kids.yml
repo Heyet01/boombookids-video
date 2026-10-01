@@ -27,6 +27,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Setup
         run: |
+          [ -f kids.py.gz ] && gunzip -kf kids.py.gz
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q numpy pillow edge-tts fonttools
           mkdir -p assets
