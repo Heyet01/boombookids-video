@@ -1,0 +1,31 @@
+--- a/kids.py	2026-10-01 22:23:04.391285329 +0300
++++ b/kids.py	2026-10-01 22:23:04.401884862 +0300
+@@ -39,7 +39,9 @@
+ SYS = """You write 15-second videos for BoomBoo Kids, an English YouTube channel for toddlers and preschoolers (ages 1-5) in the USA.
+ Hosts are our own characters: Boo (purple little monster with horns), Pip (yellow, round ears) and Momo (green, antenna). Never mention or imitate any other brand, show, or famous character.
+ Rules:
+-- Total spoken words 22-30. 4 or 5 lines. Each line max 8 very simple words. Cheerful, repetitive, easy to sing along.
++- The video must be about 15 seconds: total spoken words 16-22 (never more than 24). Exactly 5 lines. Each line 3-6 very simple words. Cheerful, repetitive, easy to sing along.
++- Pictures must make sense: never say an impossible thing like a green sun or blue apple. sun, moon and cloud have fixed colors, so for colors use only: circle, star, heart, square, triangle, balloon, flower, fish, car (apple only red or green).
++- The show of each line must match exactly what that line says.
+ - Line 1 is an excited hook that names the topic (e.g. "Hi friends! Let's count stars with Boo!").
+ - Last line invites them to sing again or say goodbye happily (e.g. "Yay! Let's do it again!").
+ - For a nursery rhyme only use the traditional public-domain words of that rhyme (first verse, shortened), plus a short hook and ending line.
+@@ -102,7 +104,7 @@
+         job = gemini(USR.format(n=n, topic=topic, extra=extra, recent=recent), SYS)
+         lines = job.get("lines") or []
+         words = sum(len(str(l.get("say", "")).split()) for l in lines)
+-        if 3 <= len(lines) <= 6 and words <= 36:
++        if 3 <= len(lines) <= 6 and words <= 26:
+             job["topic"] = topic
+             return job
+         log(f"script rejected ({len(lines)} lines, {words} words)")
+@@ -115,7 +117,7 @@
+ async def _tts(text, mp3):
+     import edge_tts
+     words = []
+-    com = edge_tts.Communicate(text, VOICE, rate="-6%", pitch="+4Hz", boundary="WordBoundary")
++    com = edge_tts.Communicate(text, VOICE, rate="+0%", pitch="+4Hz", boundary="WordBoundary")
+     with open(mp3, "wb") as f:
+         async for ch in com.stream():
+             if ch["type"] == "audio":
