@@ -8,9 +8,13 @@ on:
         required: false
         default: "0"
       topic:
-        description: "colors / numbers / abc / shapes / rhyme (empty = rotate)"
+        description: "colors / numbers / abc / shapes / rhyme / habits (empty = rotate)"
         required: false
         default: ""
+      mode:
+        description: "short = one Short, compilation = longer horizontal learning video"
+        required: false
+        default: "short"
 
 permissions:
   contents: write
@@ -22,14 +26,15 @@ concurrency:
 jobs:
   video:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - name: Setup
         run: |
           [ -f kids.py.gz ] && gunzip -kf kids.py.gz
+          for g in patches/*.patch.gz; do [ -f "$g" ] && gunzip -kf "$g"; done
           for p in patches/*.patch; do [ -f "$p" ] && patch -p1 < "$p"; done
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
           pip install -q numpy pillow edge-tts fonttools
           mkdir -p assets
           curl -sSL -o assets/EricaOne-Regular.ttf "https://github.com/google/fonts/raw/main/ofl/ericaone/EricaOne-Regular.ttf"
@@ -43,15 +48,18 @@ jobs:
           KIDS_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
           KIDS_DRY_RUN: ${{ inputs.dry_run }}
           KIDS_TOPIC: ${{ inputs.topic }}
+          KIDS_MODE: ${{ inputs.mode }}
         run: python kids.py
       - name: Save history / preview
         if: always()
         run: |
           git config user.name "boomboo-bot"
           git config user.email "boomboo-bot@users.noreply.github.com"
-          if [ "${{ inputs.dry_run }}" = "1" ] && [ -f out/long.mp4 ]; then
-            mkdir -p preview && cp out/long.mp4 out/short.mp4 out/thumb.jpg out/summary.json preview/
-            git add preview
+          if [ "${{ inputs.dry_run }}" = "1" ] && [ -f out/summary.json ]; then
+            mkdir -p preview && rm -f preview/*
+            for f in out/short.mp4 out/thumb.jpg out/summary.json; do [ -f "$f" ] && cp "$f" preview/; done
+            [ -f out/long.mp4 ] && ffmpeg -loglevel error -y -i out/long.mp4 -t 40 -vf scale=960:-2 -c:v libx264 -crf 28 -c:a aac -b:a 96k preview/long_first40s.mp4
+            git add -A preview
           fi
           git add history.json || true
           git commit -m "BoomBoo update" && git push || true
