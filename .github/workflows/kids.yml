@@ -62,4 +62,4 @@ jobs:
             git add -A preview
           fi
           git add history.json || true
-          git commit -m "BoomBoo update" && git push || true
+          git commit -m "BoomBoo update" && (git pull --rebase -q || true) && git push || true
