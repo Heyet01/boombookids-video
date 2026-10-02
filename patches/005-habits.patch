@@ -1,0 +1,24 @@
+--- a/kids.py
++++ b/kids.py
+@@ -33,8 +33,10 @@
+ TOPICS = ["colors", "numbers", "abc", "shapes", "rhyme", "habits"]
+ TOPIC_NAMES = {"colors": "Colors", "numbers": "Numbers", "abc": "ABC", "shapes": "Shapes",
+                "rhyme": "Nursery Rhymes", "habits": "Good Habits"}
+-HABITS = ["brushing teeth", "washing hands", "sharing toys", "saying please and thank you", "tidying up toys",
+-          "being kind to a friend", "eating fruit", "going to sleep", "saying sorry", "taking turns"]
++HABITS = ["brushing teeth (show toothbrush)", "sharing toys (show car or balloon)",
++          "saying please and thank you (show heart)", "tidying up toys (show car, balloon, square blocks)",
++          "being kind to a friend (show heart)", "eating fruit (show apple)", "going to sleep (show moon and star)",
++          "saying sorry (show heart)", "taking turns with a toy (show car or balloon)"]
+ RHYMES = ["Twinkle Twinkle Little Star", "Row Row Row Your Boat", "Humpty Dumpty", "Baa Baa Black Sheep",
+           "Itsy Bitsy Spider", "Hickory Dickory Dock", "Jack and Jill", "Hey Diddle Diddle", "Rain Rain Go Away",
+           "Mary Had a Little Lamb", "Little Bo Peep", "Pat-a-Cake", "One Two Buckle My Shoe", "Star Light Star Bright",
+@@ -53,7 +55,7 @@
+ - The show of each line must match exactly what that line says.
+ - Line 1 is an excited hook that names the topic (e.g. "Hi friends! Let's count stars with Boo!").
+ - Last line ends the story happily and loops back to the start (e.g. "Yay! Pip found it! Let's play again!").
+-- For good habits (brushing teeth, washing hands, sharing, please and thank you, tidying up, kindness, fruit, sleep, sorry, taking turns) use show type "text" with a fitting prop (heart, star, sun, moon, flower, apple) and a 1-2 word label like "SHARE!" or "BRUSH!".
++- For good habits use show type "text" with ONLY the prop named in the habit (toothbrush, apple, moon, star, car, balloon, square, heart) and a 1-2 word label that matches that picture (e.g. toothbrush + "BRUSH!", apple + "YUMMY!", moon + "SLEEP!", heart + "SORRY!"). Never show an unrelated object (no sun for washing, no apple for soap).
+ - For a nursery rhyme only use the traditional public-domain words of that rhyme (first verse, shortened), plus a short hook and ending line.
+ - Every line has a "show" object describing a big simple picture: type is one of color, count, letter, shape, text.
+   color: {"type":"color","color":"<name>","shape":"<prop>","label":"RED"}
