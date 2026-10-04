@@ -1,0 +1,70 @@
+name: Mina ile Efe bolum
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = do not upload, save preview"
+        required: false
+        default: "1"
+      langs:
+        description: "tr,en"
+        required: false
+        default: "tr,en"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cizgi
+  cancel-in-progress: false
+
+jobs:
+  bolum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kurulum
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          pip install -q numpy pillow edge-tts fonttools
+          TK=https://raw.githubusercontent.com/Heyet01/tarihin-karanligi-video/main
+          mkdir -p tk/tools tk/assets tk/cizgi
+          for f in tools/cizgi_bolum.py tools/cizgi_gunluk.py cizgi/sahneler.json cizgi/choice.json; do curl -fsSL --retry 5 -o "tk/$f" "$TK/$f"; done
+          get() { curl -fsSL --retry 5 --retry-delay 6 -o "$1" "https://github.com/google/fonts/raw/main/$2" || curl -fsSL --retry 5 --retry-delay 6 -o "$1" "https://cdn.jsdelivr.net/gh/google/fonts@main/$2"; }
+          get /tmp/B.ttf "ofl/baloo2/Baloo2%5Bwght%5D.ttf" && fonttools varLib.instancer /tmp/B.ttf wght=800 -q -o tk/assets/Baloo2-Bold.ttf || true
+          get /tmp/O.ttf "ofl/oswald/Oswald%5Bwght%5D.ttf" && fonttools varLib.instancer /tmp/O.ttf wght=700 -q -o tk/assets/Oswald-Bold.ttf || true
+          git clone -q --depth 1 --filter=blob:none --sparse -b state https://github.com/Heyet01/tarihin-karanligi-video /tmp/tks
+          git -C /tmp/tks sparse-checkout set cizgi/lib
+          mkdir -p /tmp/lib && cp -r /tmp/tks/cizgi/lib/* /tmp/lib/ && cp tk/cizgi/choice.json /tmp/lib/choice.json
+          ls /tmp/lib/png /tmp/lib/bg
+      - name: Bolum
+        env:
+          GEMINI_KEY: ${{ secrets.KIDS_GEMINI_KEY }}
+          YT_CLIENT_ID: ${{ secrets.KIDS_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.KIDS_CLIENT_SECRET }}
+          BOOMBOO_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
+          MINA_REFRESH_TOKEN: ${{ secrets.MINA_REFRESH_TOKEN }}
+          CIZGI_DRY: ${{ inputs.dry_run || '0' }}
+          CIZGI_LANGS: ${{ inputs.langs || 'tr,en' }}
+          CIZGI_CRF: "23"
+        run: python tk/tools/cizgi_gunluk.py /tmp/lib out_cizgi cizgi_history.json
+      - name: Kaydet
+        if: always()
+        run: |
+          git config user.name "boomboo-bot"
+          git config user.email "boomboo-bot@users.noreply.github.com"
+          rm -rf preview_cizgi && mkdir -p preview_cizgi
+          for f in out_cizgi/bolum.json out_cizgi/summary.json; do [ -f "$f" ] && cp "$f" preview_cizgi/; done
+          for l in tr en; do
+            [ -f out_cizgi/$l/kapak.jpg ] && cp out_cizgi/$l/kapak.jpg preview_cizgi/kapak_$l.jpg
+            if [ "${{ inputs.dry_run }}" = "1" ] && [ -f out_cizgi/$l/bolum.mp4 ]; then
+              ffmpeg -loglevel error -y -i out_cizgi/$l/bolum.mp4 -vf scale=854:-2 -c:v libx264 -preset veryfast -crf 31 -c:a aac -b:a 80k preview_cizgi/bolum_$l.mp4
+            fi
+          done
+          ls -la preview_cizgi
+          git add -A preview_cizgi
+          [ -f cizgi_history.json ] && git add cizgi_history.json
+          git commit -q -m "Mina ile Efe" || exit 0
+          for i in 1 2 3; do git push -q && break; git pull -q --rebase; done
