@@ -1,6 +1,8 @@
 name: Mina ile Efe bolum
 
 on:
+  schedule:
+    - cron: "47 6 * * *"   # yedek: 09:47 Turkiye (asil tetik 08:05'te gelir; ayni gun ikinci kez yuklemez)
   workflow_dispatch:
     inputs:
       dry_run:
