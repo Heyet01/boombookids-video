@@ -1,0 +1,39 @@
+name: Mina ile Efe kanal ayarlari
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  ayar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kurulum
+        run: |
+          pip install -q numpy pillow fonttools
+          TK=https://raw.githubusercontent.com/Heyet01/tarihin-karanligi-video/main
+          mkdir -p tk/tools tk/assets
+          curl -fsSL --retry 5 -o tk/tools/cizgi_kanal.py "$TK/tools/cizgi_kanal.py"
+          curl -fsSL --retry 5 -o /tmp/choice.json "$TK/cizgi/choice.json"
+          curl -fsSL --retry 5 -o /tmp/B.ttf "https://github.com/google/fonts/raw/main/ofl/baloo2/Baloo2%5Bwght%5D.ttf" && fonttools varLib.instancer /tmp/B.ttf wght=800 -q -o tk/assets/Baloo2-Bold.ttf || true
+          git clone -q --depth 1 --filter=blob:none --sparse -b state https://github.com/Heyet01/tarihin-karanligi-video /tmp/tks
+          git -C /tmp/tks sparse-checkout set cizgi/lib
+          mkdir -p /tmp/lib && cp -r /tmp/tks/cizgi/lib/* /tmp/lib/ && cp /tmp/choice.json /tmp/lib/choice.json
+      - name: Ayarlar
+        env:
+          YT_CLIENT_ID: ${{ secrets.KIDS_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.KIDS_CLIENT_SECRET }}
+          MINA_REFRESH_TOKEN: ${{ secrets.MINA_REFRESH_TOKEN }}
+        run: python tk/tools/cizgi_kanal.py /tmp/lib kanal_mina --apply
+      - name: Kaydet
+        if: always()
+        run: |
+          git config user.name "boomboo-bot"
+          git config user.email "boomboo-bot@users.noreply.github.com"
+          git add kanal_mina || true
+          git commit -q -m "Mina ile Efe kanal ayarlari" || exit 0
+          for i in 1 2 3; do git push -q && break; git pull -q --rebase; done
