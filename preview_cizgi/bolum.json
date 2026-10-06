@@ -1,0 +1,1199 @@
+{
+ "title_tr": "En Güzel Paylaşım",
+ "title_en": "The Best Sharing",
+ "cover_tr": "Kırmızı Araba",
+ "cover_en": "Red Car",
+ "cover_bg": "kids_bedroom",
+ "cover_poses": {
+  "mina": "happy",
+  "efe": "happy"
+ },
+ "description_tr": "Mina ile Efe oyuncaklarını paylaşmayı ve birlikte oynamanın ne kadar neşeli olduğunu öğreniyorlar.",
+ "description_en": "Mina and Efe learn how to share their toys and how joyful it is to play together.",
+ "tags_tr": [
+  "mina",
+  "efe",
+  "paylaşmak",
+  "oyuncak",
+  "arkadaş",
+  "çizgifilm",
+  "okulöncesi",
+  "çocuk",
+  "değerler",
+  "eğitici"
+ ],
+ "tags_en": [
+  "mina",
+  "efe",
+  "sharing",
+  "toy",
+  "friend",
+  "cartoon",
+  "preschool",
+  "kids",
+  "values",
+  "educational"
+ ],
+ "scenes": [
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneş neşeyle doğdu, Mina ve Efe odalarında oynuyor.",
+     "en": "The sun rose cheerfully, Mina and Efe are playing in their room.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Günaydın arkadaşlar! Bugün odamızda çok eğlenceli oyunlar var.",
+     "en": "Good morning friends! Today we have very fun games in our room.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Merhaba! Ben kırmızı arabamı çok seviyorum.",
+     "en": "Hello! I love my red car very much.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sizce bugün birlikte hangi oyunu oynasak?",
+     "en": "Which game do you think we should play together today?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben yarış arabası yapacağım!",
+     "en": "I will make a race car!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina ile Efe yeni maceralar için hazırlanıyor.",
+     "en": "Mina and Efe are preparing for new adventures.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Bak Mina, elimde sadece bir tane kırmızı araba var.",
+     "en": "Look Mina, I only have one red car in my hand.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet Efe, o çok güzel bir araba.",
+     "en": "Yes Efe, that is a very nice car.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ama ben tek başıma oynamak istemiyorum ki.",
+     "en": "But I do not want to play all by myself.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ne yapabiliriz acaba? Sizce ne yapmalı?",
+     "en": "What can we do I wonder? What should we do?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bilmem ki ablacım, bana yardım eder misin?",
+     "en": "I do not know sister, will you help me?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe güzel bir çözüm arıyor.",
+     "en": "Efe is looking for a good solution.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Efe, istersen arabayı seninle sırayla sürebiliriz.",
+     "en": "Efe, if you want we can take turns driving the car.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sırayla mı? O nasıl oluyor?",
+     "en": "Take turns? How does that work?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Önce sen sürersin, sonra ben sürerim. Buna paylaşmak denir.",
+     "en": "First you drive, then I drive. This is called sharing.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Paylaşmak çok güzel bir kelime!",
+     "en": "Sharing is a very nice word!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi birlikte sayalım, sıra kimde görelim!",
+     "en": "Come on let us count together, let us see whose turn it is!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç!",
+     "en": "One, two, three!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_wide",
+   "chars": {
+    "mina": "left",
+    "efe": "center",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe parkta Hasan Dede'nin yanına gittiler.",
+     "en": "Mina and Efe went to Grandpa Hasan in the park.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy",
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Merhaba sevimli torunlarım, parkımıza hoş geldiniz.",
+     "en": "Hello my cute grandchildren, welcome to our park.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Merhaba Hasan Dede! Biz bugün oyuncak paylaşmayı öğrendik.",
+     "en": "Hello Grandpa Hasan! Today we learned to share toys.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben arabamı Mina'ya verdim, o da bana topunu verdi.",
+     "en": "I gave my car to Mina, and she gave me her ball.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Ne kadar akıllı ve kibar çocuklarsınız.",
+     "en": "What smart and polite children you are.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Paylaşınca oyunlar çok daha eğlenceli oluyor Hasan Dede.",
+     "en": "Games become much more fun when we share, Grandpa Hasan.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_wide",
+   "chars": {
+    "mina": "left",
+    "efe": "center",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Çok haklısın Mina. Paylaşmak kalpleri birbirine yaklaştırır.",
+     "en": "You are so right Mina. Sharing brings hearts closer together.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede, sen de bizimle top oynar mısın?",
+     "en": "Grandpa Hasan, will you play ball with us too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Elbette oynarım Efe, ben de paylaşmayı çok severim.",
+     "en": "Of course I will play Efe, I love sharing too.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi o zaman, topu birbirimize atalım!",
+     "en": "Come on then, let us throw the ball to each other!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yaşasın, oyun başlasın!",
+     "en": "Hooray, let the game begin!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Parkta neşeli kahkahalar etrafa yayıldı.",
+     "en": "Cheerful laughs spread around the park.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy",
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe lale yolunda yürüyorlar.",
+     "en": "Mina and Efe are walking on the tulip path.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bak Efe, etrafta ne kadar çok renkli çiçek var.",
+     "en": "Look Efe, how many colorful flowers there are around.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı, sarı ve pembe laleler çok güzel.",
+     "en": "Red, yellow and pink tulips are very beautiful.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sizce en güzel lale hangisi arkadaşlar?",
+     "en": "Which tulip do you think is the prettiest friends?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bence ortadaki sarı lale benim olmalı.",
+     "en": "I think the yellow tulip in the middle should be mine.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çiçekler parkın süsü, onları koparmıyoruz ama birlikte kokluyoruz.",
+     "en": "Flowers are the decoration of the park, we do not pick them but we smell them together.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Evet, çiçekleri koklamak da bir paylaşmak bence.",
+     "en": "Yes, smelling flowers is also a kind of sharing I think.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok doğru söyledin Efe.",
+     "en": "You spoke very truly Efe.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben bu güzel kokuyu seninle paylaşıyorum ablacım.",
+     "en": "I am sharing this nice smell with you sister.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Teşekkür ederim minik kardeşim.",
+     "en": "Thank you my little brother.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Kardeşler sevgiyle gülümsüyorlar.",
+     "en": "The siblings smile with love.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi şimdi büyük çınara gidelim!",
+     "en": "Come on now let us go to the big plane tree!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çınar ağacının gölgesi serin ve huzurlu.",
+     "en": "The shade of the plane tree is cool and peaceful.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Burada dinlenmek ve hikaye okumak harika olur.",
+     "en": "It would be great to rest and read a story here.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Benim çantamda resimli hikaye kitabım var.",
+     "en": "I have my picture story book in my bag.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kitabını benimle paylaşır mısın Efe?",
+     "en": "Will you share your book with me Efe?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tabii ki! Birlikte resimlere bakalım.",
+     "en": "Of course! Let us look at the pictures together.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe yan yana oturup kitabı açtılar.",
+     "en": "Mina and Efe sat side by side and opened the book.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Bak burada sevimli bir sincap var.",
+     "en": "Look here is a cute squirrel.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Aman ne kadar tatlı, fındık yiyor.",
+     "en": "Oh how sweet, it is eating a hazelnut.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sincaplar da yiyeceklerini birbirleriyle paylaşıyordur belki de.",
+     "en": "Maybe squirrels share their food with each other too.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Doğadaki bütün hayvanlar paylaşmayı biliyor demek ki.",
+     "en": "That means all animals in nature know how to share.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Biz de onlardan öğreniyoruz Efe.",
+     "en": "And we are learning from them Efe.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Paylaşmak hayatımızı çok güzelleştiriyor.",
+     "en": "Sharing makes our lives very beautiful.",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ile Efe eve dönüp mutfağa girdiler.",
+     "en": "Mina and Efe returned home and entered the kitchen.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hava biraz sıcakladı, serin bir şeyler içelim mi?",
+     "en": "The weather got a bit warm, shall we drink something cool?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben elma suyu istiyorum ablacım.",
+     "en": "I want apple juice sister.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Masada tam iki bardak taze elma suyu var.",
+     "en": "There are exactly two glasses of fresh apple juice on the table.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Biri benim, biri senin olsun.",
+     "en": "Let one be mine and one be yours.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İşte bu harika bir paylaşım.",
+     "en": "Now that is a wonderful sharing.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Meyve tabağında da lezzetli dilimler var.",
+     "en": "There are also delicious slices on the fruit plate.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Muzları ve çilekleri eşit şekilde paylaşalım.",
+     "en": "Let us share the bananas and strawberries equally.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi birlikte sayalım: Bir sana, bir bana!",
+     "en": "Come on let us count together: One for you, one for me!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Seninle bir şeyler paylaşmak beni çok mutlu ediyor.",
+     "en": "Sharing things with you makes me very happy.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben de seni çok seviyorum Mina.",
+     "en": "I love you very much too Mina.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Meyveler afiyetle yenildi.",
+     "en": "The fruits were eaten with appetite.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Oturma odasında oyun zamanı devam ediyor.",
+     "en": "Play time continues in the living room.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Efe, bu renkli bloklarla kocaman bir kule yapalım.",
+     "en": "Efe, let us build a huge tower with these colorful blocks.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben mavileri alayım, sen kırmızılara bak.",
+     "en": "I will take the blues, you look at the reds.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Blokları ortaklaşa kullanıyoruz, yani paylaşıyoruz.",
+     "en": "We are using the blocks jointly, meaning we are sharing.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bak kule gökyüzüne kadar uzandı!",
+     "en": "Look the tower reached up to the sky!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Kule biraz sallandı ama yıkılmadı.",
+     "en": "The tower shook a little bit but did not fall.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Arkadaşlarla oynamak neden bu kadar güzel?",
+     "en": "Why is it so nice to play with friends?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çünkü sevgimizi ve oyunlarımızı paylaşıyoruz da ondan.",
+     "en": "Because we share our love and games, that is why.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Siz de evde oyuncaklarınızı paylaşıyor musunuz arkadaşlar?",
+     "en": "Do you also share your toys at home friends?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sizce paylaşmak insanı mutlu eder mi?",
+     "en": "Do you think sharing makes a person happy?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bence kesinlikle eder!",
+     "en": "I think it definitely does!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina ile Efe birbirlerine sarıldılar.",
+     "en": "Mina and Efe hugged each other.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneş yavaşça alçalırken bahçeye çıktılar.",
+     "en": "They went out to the garden while the sun was slowly lowering.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bahçedeki domatesler toplanma vaktine gelmiş.",
+     "en": "The tomatoes in the garden have come to harvest time.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben sepeti tutayım, sen domatesleri topla.",
+     "en": "I will hold the basket, you collect the tomatoes.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İşte bu harika bir görev paylaşımı.",
+     "en": "Now this is a wonderful task sharing.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Domatesler mis gibi kokuyor.",
+     "en": "The tomatoes smell so nice.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Bahçede toprak kokusu havayı sarıyor.",
+     "en": "The scent of earth surrounds the air in the garden.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Bu taze domatesleri akşam yemeğinde ailemizle paylaşacağız.",
+     "en": "We will share these fresh tomatoes with our family at dinner.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Paylaşmak ne kadar çok alanda var değil mi?",
+     "en": "In how many areas sharing exists, right?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet Efe, sevgimizi, yiyeceğimizi, oyunumuzu hep paylaşıyoruz.",
+     "en": "Yes Efe, we always share our love, our food, our game.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben de öğrendiğimiz bu güzel şeyi hiç unutmayacağım.",
+     "en": "And I will never forget this nice thing we learned.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin benim akıllı kardeşime.",
+     "en": "Well done to my smart brother.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Günün yorgunluğu ama kalplerinde büyük bir neşe var.",
+     "en": "There is the tiredness of the day but a great joy in their hearts.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_sunset",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Gün batımında parkın renkleri turuncuya döndü.",
+     "en": "The colors of the park turned orange at sunset.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Gökyüzü ne kadar güzel görünüyor.",
+     "en": "How beautiful the sky looks.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Turuncu bulutlar sanki pamuk gibi.",
+     "en": "Orange clouds are like cotton.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bu güzel manzarayı birbirimizle paylaşıyoruz.",
+     "en": "We are sharing this nice scenery with each other.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bugün neler öğrendik bir düşünelim ablacım.",
+     "en": "Let us think about what we learned today sister.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Oyuncağımızı, yiyeceğimizi ve mutluluğumuzu paylaştık.",
+     "en": "We shared our toy, our food, and our happiness.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_sunset",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Siz de arkadaşlarınızla her şeyi paylaşıyor musunuz?",
+     "en": "Do you also share everything with your friends?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Paylaşmak hayatımızı güzelleştirir ve dostlukları güçlendirir.",
+     "en": "Sharing beautifies our lives and strengthens friendships.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede de öyle söylemişti.",
+     "en": "Grandpa Hasan had said so too.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yavaşça evimize dönme vakti geldi.",
+     "en": "It is time to slowly return to our home.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yarın yine yeni oyunlar bizi bekliyor.",
+     "en": "New games are waiting for us again tomorrow.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Güneş batarken çocuklar evlerinin yolunu tuttular.",
+     "en": "As the sun set, the children headed towards their home.",
+     "pose": {
+      "mina": "happy",
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hoşça kalın!",
+     "en": "Goodbye!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  }
+ ],
+ "topic": "paylaşmak"
+}
