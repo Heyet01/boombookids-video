@@ -1,0 +1,2986 @@
+{
+ "title_tr": "Pırıl Pırıl Dişler",
+ "title_en": "Sparkling Clean Teeth",
+ "cover_tr": "Dişler Nasıl Parlar?",
+ "cover_en": "How Teeth Sparkle?",
+ "cover_bg": "bathroom",
+ "cover_poses": {
+  "mina": "talk",
+  "efe": "happy"
+ },
+ "description_tr": "Mina ve Efe, diş fırçalamanın neden bu kadar önemli ve eğlenceli olduğunu keşfediyorlar. Hasan Dede'nin bilgece öğütleriyle iki dakika kuralını öğrenip tertemiz gülüşlere kavuşuyorlar.",
+ "description_en": "Mina and Efe discover why brushing teeth is so important and fun. With Grandpa Hasan's wise advice, they learn the two-minute rule and get sparkling clean smiles.",
+ "tags_tr": [
+  "diş fırçalama",
+  "sağlık",
+  "temizlik",
+  "özbakım",
+  "çocuk gelişimi",
+  "eğitici çizgi film",
+  "mina ile efe",
+  "kardeşler",
+  "günlük rutinler",
+  "sağlıklı alışkanlıklar"
+ ],
+ "tags_en": [
+  "brushing teeth",
+  "health",
+  "cleanliness",
+  "self care",
+  "child development",
+  "educational cartoon",
+  "mina and efe",
+  "siblings",
+  "daily routines",
+  "healthy habits"
+ ],
+ "scenes": [
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneşli ve çok güzel bir sabah başladı.",
+     "en": "A sunny and wonderful morning has started.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Günaydın Efe! Kahvaltımız bitti bile.",
+     "en": "Good morning Efe! Our breakfast is already finished.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Elmalar çok tatlıydı abla, hepsini yedim!",
+     "en": "The apples were so sweet Mina, I ate them all!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Afiyet olsun Efe, elma yemek çok sağlıklıdır.",
+     "en": "Bon appetit Efe, eating apples is very healthy.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kıtır kıtır ses çıkardı, çok eğlenceliydi!",
+     "en": "It made a crunchy sound, it was so fun!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Yemekten sonra küçük bir görev onları bekliyordu.",
+     "en": "A small task was waiting for them after eating.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Peki yemekten sonra ne yapmamız gerekiyor?",
+     "en": "So, what do we need to do after eating?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oyun oynamak mı? Hemen arabalarımı alayım!",
+     "en": "Play a game? Let me grab my toy cars right away!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Oyundan önce çok önemli bir işimiz var.",
+     "en": "Before playing, we have a very important task.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hangi iş abla? Çok merak ettim şimdi.",
+     "en": "Which task Mina? I am very curious now.",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Yemekten sonra dişlerimizi fırçalamamız gerekir.",
+     "en": "We need to brush our teeth after eating.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ama dişlerim şu an hiç kirlenmedi ki!",
+     "en": "But my teeth did not get dirty at all right now!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe dişlerinin temiz olduğunu düşünüyordu.",
+     "en": "Efe thought his teeth were already clean.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Yiyecek kırıntıları dişlerimizin arasına gizlenebilir.",
+     "en": "Food crumbs can hide between our teeth.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Gizlenir mi? Saklambaç mı oynuyorlar yani?",
+     "en": "Do they hide? Are they playing hide and seek?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, minik kırıntılar dişlerimizin arasında saklanır.",
+     "en": "Yes, tiny crumbs hide between our teeth.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina kardeşine diş temizliğini anlatmaya çalışıyordu.",
+     "en": "Mina was trying to explain tooth cleaning to her brother.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Onları görebiliyor muyuz peki abla?",
+     "en": "Can we see them then, Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bazen çok küçük olurlar, zor görünürler.",
+     "en": "Sometimes they are very small and hard to see.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi banyoya gidelim ve aynaya bakalım!",
+     "en": "Let's go to the bathroom and look in the mirror!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Harika bir fikir Efe, birlikte bakalım.",
+     "en": "Great idea Efe, let's look together.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "İki kardeş neşeyle banyoya doğru yürüdüler.",
+     "en": "The two siblings walked cheerfully towards the bathroom.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Benim fırçam mavi, senin fırçan pembe!",
+     "en": "My brush is blue, your brush is pink!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Fırçalarımız bizi lavaboda bekliyor.",
+     "en": "Our brushes are waiting for us at the sink.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçalamak biraz uzun sürüyor ama.",
+     "en": "Brushing takes a little long, though.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şarkı söylersek zaman çok hızlı geçer.",
+     "en": "If we sing a song, time passes very quickly.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Şarkı mı? Ben şarkıları çok severim!",
+     "en": "A song? I love songs so much!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "O zaman hemen banyoya geçelim mi?",
+     "en": "Then shall we head to the bathroom right now?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet! Yarışalım mı abla, kim önce varacak?",
+     "en": "Yes! Shall we race Mina, who will arrive first?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Koşmadan, dikkatlice yürüyerek gidelim canım kardeşim.",
+     "en": "Let's walk carefully without running, my dear brother.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Banyoda pırıl pırıl bir ayna vardı.",
+     "en": "There was a sparkling mirror in the bathroom.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Aynaya baktım, dişlerimi kocaman gösteriyorum!",
+     "en": "I looked in the mirror, I am showing my teeth big!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Gülümse bakalım Efe, 'peynir' de!",
+     "en": "Smile Efe, say 'cheese'!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Peyniiir! Dişlerim kocaman görünüyor abla!",
+     "en": "Cheeeese! My teeth look huge Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İşte şimdi onları parlatma zamanı.",
+     "en": "Now is the time to make them shine.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Macunu kim sıkacak peki?",
+     "en": "Who will squeeze the paste then?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ben sana yardım ederim, bezelye kadar koyalım.",
+     "en": "I will help you, let's put on just a pea-sized amount.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar için azıcık macun yeterlidir.",
+     "en": "A tiny bit of paste is enough for children.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bezelye kadar mı? Küçücük bir nokta gibi!",
+     "en": "Pea-sized? Like a tiny little dot!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, çok fazla macuna gerek yok.",
+     "en": "Yes, there is no need for too much toothpaste.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Fırçanı eline al ve hafifçe tut.",
+     "en": "Take your brush in your hand and hold it gently.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tuttum bile! Çok sert fırçalamak gerekir mi?",
+     "en": "I am holding it! Do I need to brush very hard?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hayır Efe, çok nazik olmalıyız.",
+     "en": "No Efe, we must be very gentle.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Diş etlerimizi korumak için nazik fırçalarız.",
+     "en": "We brush gently to protect our gums.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Daireler çizerek mi yapıyoruz abla?",
+     "en": "Do we do it by drawing circles, Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aynen öyle! Yuvarlak yuvarlak, tıpkı tekerlek gibi.",
+     "en": "Exactly! Round and round, just like wheels.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çuf çuf tren gibi mi dönüyor?",
+     "en": "Does it spin like a choo-choo train?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, dişlerin önünü ve arkasını fırçalıyoruz.",
+     "en": "Yes, we brush the front and the back of our teeth.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Arkada gizlenen kırıntıları da yakalayacağız!",
+     "en": "We will catch the crumbs hiding in the back too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hiçbir kırıntı kaçamayacak!",
+     "en": "No crumb will be able to escape!",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Abla, köpükler çıktı bile, bak!",
+     "en": "Mina, bubbles already came out, look!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok güzel köpürdü! Ama sakın yutma.",
+     "en": "It foamed up nicely! But do not swallow it.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Biliyorum, macunu yutmak yok, tükürmek var.",
+     "en": "I know, we don't swallow paste, we spit it out.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe kuralları çok güzel öğrenmişti.",
+     "en": "Efe had learned the rules very well.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi ağzımızı suyla güzelce çalkalayalım.",
+     "en": "Now let's rinse our mouth nicely with water.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çal-ka çal-ka! Su çok ferahlatıcı!",
+     "en": "Swish swish! The water is very refreshing!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İşte bu kadar! Fırçalarımızı da yıkayalım.",
+     "en": "That is it! Let's wash our brushes too.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçam temizlendi ve yerine koydum.",
+     "en": "My brush is clean and I put it in its place.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin sana Efe, harika bir iş çıkardın.",
+     "en": "Well done Efe, you did a wonderful job.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Şimdi parka gidip Hasan Dede'yi görebilir miyiz?",
+     "en": "Can we go to the park now and see Grandpa Hasan?",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuklar montlarını almak için odaya girdiler.",
+     "en": "The children entered the room to get their jackets.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Parka gitmeden önce hazırlanalım.",
+     "en": "Let's get ready before going to the park.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Abla, dişlerimizi günde kaç defa fırçalarız?",
+     "en": "Mina, how many times a day do we brush our teeth?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sabah ve akşam, yani günde iki defa.",
+     "en": "Morning and night, so twice a day.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir sabah, bir de uyumadan önce mi?",
+     "en": "Once in the morning, and once before sleeping?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet! Arkadaşlar, siz günde kaç defa fırçalıyorsunuz?",
+     "en": "Yes! Friends, how many times do you brush each day?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Düzenli fırçalamak dişlerimizi güçlü ve sağlıklı tutar.",
+     "en": "Brushing regularly keeps our teeth strong and healthy.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "İki parmağımı kaldırıyorum, bir ve iki!",
+     "en": "I am holding up two fingers, one and two!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harikasın Efe, parmaklarınla çok güzel gösterdin.",
+     "en": "You are great Efe, you showed it very nicely with your fingers.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi dışarı çıkalım, Hasan Dede bizi bekler!",
+     "en": "Let's go outside, Grandpa Hasan is waiting for us!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Ayakkabılarımızı giyelim, bağcıklarımızı kontrol edelim.",
+     "en": "Let's put on our shoes and check our laces.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Benim ayakkabım cırt cırtlı, hemen yapıştırdım!",
+     "en": "My shoe has velcro, I fastened it right away!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok pratikmiş Efe, aferin sana.",
+     "en": "That is very practical Efe, good job.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe kendi başına giyinmeyi çok seviyordu.",
+     "en": "Efe loved getting dressed all by himself.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede'ye dişlerimi göstereceğim bugün.",
+     "en": "I will show Grandpa Hasan my teeth today.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bence dişlerinin parıltısını hemen fark edecek.",
+     "en": "I think he will notice the sparkle of your teeth right away.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Işıl ışıl parlıyorlar değil mi abla?",
+     "en": "They are sparkling bright, aren't they Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, inci gibi bembeyaz oldular.",
+     "en": "Yes, they became snow white like pearls.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Temiz dişler çocuklara her zaman neşe verir.",
+     "en": "Clean teeth always bring joy to children.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Kapıyı açalım ve parka yürüyelim!",
+     "en": "Let's open the door and walk to the park!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Hadi bakalım, el ele tutuşarak çıkalım.",
+     "en": "Come on, let's go out holding hands.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "El ele yürümek çok güvenli ve güzel.",
+     "en": "Walking hand in hand is very safe and nice.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina kardeşine her zaman çok dikkat ederdi.",
+     "en": "Mina always paid great attention to her brother.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Kaldırımdan yavaşça yürüyeceğiz.",
+     "en": "We will walk slowly on the sidewalk.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yolda kuşlar da var, onlara da selam veririz.",
+     "en": "There are birds on the way too, we can say hello to them.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kuşlar da sabah erkenden uyanmışlar.",
+     "en": "The birds have also woken up early in the morning.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Acaba kuşlar da dişlerini fırçalar mı?",
+     "en": "I wonder if birds brush their teeth too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kuşların dişleri yoktur Efe, onların gagaları vardır!",
+     "en": "Birds don't have teeth Efe, they have beaks!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Doğru ya! Gagalarını suya daldırıp temizlerler.",
+     "en": "That's right! They dip their beaks in water and clean them.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Her canlının kendine göre bir temizlik yolu vardır.",
+     "en": "Every living creature has its own way of cleaning.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Parkın taş yolunda laleler rengârenk açmıştı.",
+     "en": "Tulips bloomed colorfully along the park's stone path.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hava ne kadar ferah ve temiz bugün!",
+     "en": "How fresh and clean the air is today!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı ve sarı laleler bize el sallıyor!",
+     "en": "Red and yellow tulips are waving at us!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Biz de onlara el sallayalım.",
+     "en": "Let's wave back at them too.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Merhaba laleler! Nasılsınız bugün?",
+     "en": "Hello tulips! How are you today?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "İlerideki bankta tanıdık bir dost oturuyordu.",
+     "en": "A familiar friend was sitting on the bench ahead.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bak Efe, Hasan Dede orada oturuyor!",
+     "en": "Look Efe, Grandpa Hasan is sitting over there!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede! Merhaba Hasan Dede!",
+     "en": "Grandpa Hasan! Hello Grandpa Hasan!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi yanına gidip günaydın diyelim.",
+     "en": "Let's go over to him and say good morning.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çiçekleri suluyor olabilir mi acaba?",
+     "en": "Could he be watering the flowers, I wonder?",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Günaydın güzel yavrularım, hoş geldiniz parka!",
+     "en": "Good morning my lovely children, welcome to the park!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Günaydın Hasan Dede! Nasılsın bugün?",
+     "en": "Good morning Grandpa Hasan! How are you today?",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben çok iyiyim, Hasan Dede bak dişlerime!",
+     "en": "I am doing great, Grandpa Hasan look at my teeth!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Ooo, bu ne güzel bir gülümseme böyle!",
+     "en": "Oh, what a wonderful smile this is!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Hasan Dede Efe'nin temiz dişlerini görünce sevindi.",
+     "en": "Grandpa Hasan was glad to see Efe's clean teeth.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Kahvaltıdan hemen sonra fırçaladık dedeciğim.",
+     "en": "We brushed right after breakfast, grandpa.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Daireler çizdim, pırıl pırıl yaptım!",
+     "en": "I drew circles, made them sparkling clean!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Aferin size! Dişlerinize çok iyi bakmışsınız.",
+     "en": "Well done to you both! You took great care of your teeth.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sen parktaki çiçeklere nasıl iyi bakıyorsan öyle!",
+     "en": "Just like how you take good care of the flowers in the park!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Ne güzel söyledin Mina kızım, çok haklısın.",
+     "en": "How nicely said Mina, my girl, you are so right.",
+     "pose": {
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Çiçekler de mi diş fırçalar Hasan Dede?",
+     "en": "Do flowers brush their teeth too Grandpa Hasan?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Çiçeklerin dişleri yok ama yaprakları temizlenir.",
+     "en": "Flowers do not have teeth, but their leaves get cleaned.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Hasan Dede çocuklara doğadan örnekler verirdi.",
+     "en": "Grandpa Hasan gave the children examples from nature.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Yağmur yağınca yapraklar yıkanır değil mi?",
+     "en": "When it rains the leaves get washed, right?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Evet, tozlar gider ve yapraklar ışıldar.",
+     "en": "Yes, the dust goes away and the leaves shine.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tıpkı bizim fırçamız gibi, fırça da tozları süpürür!",
+     "en": "Just like our brush, the brush sweeps the dust too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kırıntıları süpürüp temizler Efe.",
+     "en": "It sweeps and cleans away crumbs, Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Harika bir benzetme yaptınız küçük dostlarım.",
+     "en": "You made a wonderful comparison, my little friends.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Büyük çınar ağacının altına gidelim mi?",
+     "en": "Shall we go under the big plane tree?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Gelin bakalım, çınarın gölgesi çok serindir.",
+     "en": "Come along, the shade of the plane tree is very cool.",
+     "pose": {
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Yaşlı çınar ağacı parkın en büyük ağacıydı.",
+     "en": "The old plane tree was the largest tree in the park.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bu ağacın gövdesi ne kadar güçlü!",
+     "en": "How strong the trunk of this tree is!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Bakımı iyi yapılan her şey güçlü kalır.",
+     "en": "Everything that is well cared for stays strong.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dişlerimiz de bu ağaç gibi güçlü olur mu?",
+     "en": "Will our teeth be as strong as this tree too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Her gün fırçalarsan elbet sapasağlam kalırlar.",
+     "en": "If you brush every day, of course they will stay strong.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Süt içmek de dişleri güçlendirir, değil mi?",
+     "en": "Drinking milk also strengthens teeth, doesn't it?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Hem süt hem peynir dişlerin en yakın dostudur.",
+     "en": "Both milk and cheese are the best friends of teeth.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben peyniri çok severim, her kahvaltıda yerim!",
+     "en": "I love cheese so much, I eat it every breakfast!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Sağlıklı beslenmek diş sağlığı için çok değerlidir.",
+     "en": "Eating healthy is very valuable for dental health.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Şekerli şeyleri az yemek de çok önemli.",
+     "en": "Eating few sugary things is also very important.",
+     "pose": {
+      "mina": "point"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Neden şekerli şeyler dişleri üzer ki abla?",
+     "en": "Why do sugary things make teeth sad Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Çünkü şeker dişlerin üzerinde yapışıp kalabilir.",
+     "en": "Because sugar can stick and stay on the teeth.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ve temizlenmezse dişlerimizde çürükler oluşabilir.",
+     "en": "And if not cleaned, cavities can form in our teeth.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çürük olmasın! Çürükler can acıtır.",
+     "en": "No cavities! Cavities can hurt.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Korkma güzel çocuk, fırçaladığın sürece dişlerin korunur.",
+     "en": "Do not fear sweet child, as long as you brush, your teeth are protected.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Düzenli temizlik dişleri her türlü mikroptan korur.",
+     "en": "Regular cleaning protects teeth from all kinds of germs.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Günde iki dakika fırçalamak yeterli dedeciğim.",
+     "en": "Brushing for two minutes a day is enough grandpa.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "İki dakika çok kısa bir zamandır, hemen biter.",
+     "en": "Two minutes is a very short time, it ends right away.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben fırçalarken içimden sayabilirim!",
+     "en": "I can count inside my head while brushing!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Birlikte saymak daha da eğlenceli olur.",
+     "en": "Counting together will be even more fun.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Peki çocuklar, oyun parkında biraz oynamak ister misiniz?",
+     "en": "Well children, would you like to play a bit at the playground?",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet! Kaydıraktan kaymak istiyorum!",
+     "en": "Yes! I want to slide down the slide!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Salıncakta da sallanabiliriz Hasan Dede.",
+     "en": "We can also swing on the swings Grandpa Hasan.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Gidin oynayın bakalım, ben buradan sizi izlerim.",
+     "en": "Go ahead and play, I will watch you from here.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar oyun alanına doğru sevinçle adımladılar.",
+     "en": "The children stepped joyfully towards the play area.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Teşekkür ederiz Hasan Dede!",
+     "en": "Thank you Grandpa Hasan!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Görüşürüz dedeciğim, birazdan döneriz.",
+     "en": "See you soon grandpa, we will be back shortly.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Dikkatli koşun, birbirinizi kollayın yavrularım.",
+     "en": "Run carefully and look after each other, my little ones.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Abla koşmadan gidelim, dedem haklı!",
+     "en": "Mina let's go without running, grandpa is right!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin sana Efe, güvenlik her şeyden önce gelir.",
+     "en": "Good for you Efe, safety comes before everything.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Oyun parkı cıvıl cıvıl ve çok neşeliydi.",
+     "en": "The playground was bustling and very cheerful.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı kaydırak ne kadar yüksek görünüyor!",
+     "en": "How tall the red slide looks!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Merdivenlerden sırayla çıkalım Efe.",
+     "en": "Let's climb the stairs taking turns, Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Önce sen çık abla, ben arkandayım.",
+     "en": "You go first Mina, I am behind you.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Basamakları sayalım mı: bir, iki, üç!",
+     "en": "Shall we count the steps: one, two, three!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dört, beş! İşte en tepeye ulaştık!",
+     "en": "Four, five! Here we reached the very top!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Birlikte saymak adımları daha eğlenceli kılıyordu.",
+     "en": "Counting together made the steps even more fun.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi aşağıya doğru kayıyoruz, vuuu!",
+     "en": "Now we slide down, whoooosh!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Vuuu! Rüzgâr yüzüme çarptı, çok güzel!",
+     "en": "Whoooosh! The wind touched my face, so nice!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yumuşacık kuma indik bile.",
+     "en": "We already landed on the soft sand.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Kumdan kale yapalım mı abla?",
+     "en": "Shall we build a sandcastle Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harika fikir! Kalemizin kuleleri olsun.",
+     "en": "Great idea! Let our castle have towers.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kovayı kumla dolduruyorum, hop ters çevirdim!",
+     "en": "I am filling the bucket with sand, oops turned it over!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Tıpkı beyaz ve sağlam bir diş gibi durdu!",
+     "en": "It looks just like a white, strong tooth!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Gerçekten mi? Diş kalesi yaptık desene!",
+     "en": "Really? So you mean we made a tooth castle!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar her oyunda yeni bir hayal kuruyorlardı.",
+     "en": "The children created a new imagination in every game.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bu kale çok güçlü, çünkü hiç çürüğü yok.",
+     "en": "This castle is very strong, because it has no cavities.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Biz de onu her gün fırçalayacağız abla!",
+     "en": "We will brush it every day too, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İlahi Efe, kumdan kale fırçalanır mı hiç?",
+     "en": "Oh silly Efe, can a sandcastle be brushed at all?",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Şaka yaptım abla, kendi dişlerimizi fırçalarız!",
+     "en": "I was joking Mina, we brush our own teeth!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneş yavaşça gökyüzünde alçalmaya başladı.",
+     "en": "The sun slowly began to lower in the sky.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Efe, artık eve dönme vakti yaklaşıyor.",
+     "en": "Efe, the time to return home is approaching now.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Zaman ne kadar çabuk geçti parkta!",
+     "en": "How fast time passed in the park!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok güzel oynadık, Hasan Dede'ye hoşça kal diyelim.",
+     "en": "We played so nicely, let's say goodbye to Grandpa Hasan.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kumları ellerimizden çırpalım önce.",
+     "en": "Let's brush off the sand from our hands first.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, ellerimizi temiz tutmak da çok önemlidir.",
+     "en": "Yes, keeping our hands clean is also very important.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Temizlik alışkanlıkları günün her anında vardı.",
+     "en": "Cleanliness habits were present at every moment of the day.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Eve gidince ellerimi sabunla yıkayacağım.",
+     "en": "When we get home, I will wash my hands with soap.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harikasın Efe, sonra da akşam yemeğimizi yeriz.",
+     "en": "You are great Efe, then we will eat our dinner.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi yürüyelim, karnım da acıktı zaten!",
+     "en": "Let's walk, I got hungry already anyway!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Evde sıcacık bir akşam yemeği onları bekliyordu.",
+     "en": "A warm dinner was waiting for them at home.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Çorbamızı içtik, sebzelerimizi bitirdik.",
+     "en": "We drank our soup, finished our vegetables.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Havuçları kütür kütür yedim, çok lezzetliydi!",
+     "en": "I crunched on the carrots, they were so delicious!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Havuç dişler için harika bir besindir.",
+     "en": "Carrots are a wonderful food for teeth.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Sert sebzeleri çiğnemek dişleri ve diş etlerini güçlendirir.",
+     "en": "Chewing crunchy vegetables strengthens teeth and gums.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Tavşanlar gibi kıtır kıtır çiğnedim abla!",
+     "en": "I chewed crunchily just like rabbits Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi yemeğimiz bittiğine göre ne yapıyoruz?",
+     "en": "Now that our meal is finished, what do we do?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben biliyorum! Uyumadan önce diş fırçalamak!",
+     "en": "I know! Brushing teeth before going to sleep!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bildin Efe! Günün ikinci fırçalaması.",
+     "en": "You guessed it Efe! The second brushing of the day.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hemen banyoya gidip fırçamı hazırlayayım!",
+     "en": "Let me go to the bathroom right away and prepare my brush!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Masanın üzerindeki tabaklarımızı kaldırmayı unutmayalım.",
+     "en": "Let's not forget to clear our plates from the table.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tabağımı tezgâha koydum bile, ben yardımseverim!",
+     "en": "I already put my plate on the counter, I am helpful!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok teşekkür ederim Efe, harika bir yardımcısın.",
+     "en": "Thank you so much Efe, you are a wonderful helper.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Evdeki küçük yardımlaşmalar herkesi mutlu eder.",
+     "en": "Little acts of helping at home make everyone happy.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Şimdi diş perisi bizi izliyor mudur?",
+     "en": "Is the tooth fairy watching us right now?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Temiz dişleri herkes çok sever Efe.",
+     "en": "Everyone loves clean teeth, Efe.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Aynada kendime kocaman güleceğim yine!",
+     "en": "I will give myself a huge smile in the mirror again!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bu sefer iki dakikalık kum saatini çevirelim.",
+     "en": "This time let's turn the two-minute hourglass.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kum saati mi? Banyodaki renkli saat mi?",
+     "en": "The hourglass? The colorful clock in the bathroom?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, kumlar akarken fırçalamaya devam edeceğiz.",
+     "en": "Yes, we will keep brushing while the sand flows.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Kum saati zamanı takip etmeyi çok kolaylaştırır.",
+     "en": "The hourglass makes tracking time very easy.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Kumlar aşağıya inene kadar durmak yok!",
+     "en": "No stopping until the sand goes all the way down!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kesinlikle! Her diş sırayla temizlenecek.",
+     "en": "Absolutely! Each tooth will be cleaned in turn.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ön dişler, yan dişler ve arka dişler!",
+     "en": "Front teeth, side teeth, and back teeth!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Dilimizi de hafifçe fırçalamayı unutmayalım.",
+     "en": "Let's not forget to gently brush our tongue too.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dilimizi de mi? Gerçekten mi abla?",
+     "en": "Our tongue too? Really Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, dilimizi de nazikçe temizlersek nefesimiz ferahlar.",
+     "en": "Yes, if we gently clean our tongue, our breath gets fresh.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Ağız temizliği bir bütündür ve çok kolaydır.",
+     "en": "Mouth cleaning is complete and very simple.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bunu ilk defa duyuyorum, hemen denemeliyim!",
+     "en": "I'm hearing this for the first time, I must try right away!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi banyoya koşalım, kum saati bizi bekliyor.",
+     "en": "Let's head to the bathroom, the hourglass is waiting for us.",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Banyo lambası sıcacık bir ışık yayıyordu.",
+     "en": "The bathroom light cast a warm glow.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "İşte kum saatimiz burada, mavi kumlu saat!",
+     "en": "Here is our hourglass, the one with blue sand!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çeviriyorum abla, bir, iki, üç, çevirdim!",
+     "en": "I am turning it Mina, one, two, three, turned it!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kumlar akmaya başladı, fırçalar iş başına!",
+     "en": "The sand started flowing, brushes get to work!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Daireler çiziyorum, fırçam dans ediyor!",
+     "en": "I am drawing circles, my brush is dancing!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yukarı, aşağı, yuvarlak yuvarlak!",
+     "en": "Up, down, round and round!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "İki kardeş neşeyle dişlerini temizliyordu.",
+     "en": "The two siblings were cheerfully cleaning their teeth.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Arka dişleri de unutmadım abla, bak!",
+     "en": "I didn't forget the back teeth either Mina, look!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin Efe, kumlar henüz bitmedi, devam!",
+     "en": "Well done Efe, the sand hasn't finished yet, keep going!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Daha bitmedi mi? Azıcık kum kaldı tepede!",
+     "en": "Not finished yet? Just a little sand left at the top!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Arkadaşlar, siz de dişlerinizi bizimle fırçalıyor musunuz?",
+     "en": "Friends, are you brushing your teeth with us too?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi herkes diş fırçasını alsın!",
+     "en": "Come on, everyone grab your toothbrush!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Birlikte diş fırçalamak harika bir alışkanlıktır.",
+     "en": "Brushing teeth together is a wonderful habit.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Son kum tanesi de aşağıya düştü!",
+     "en": "The last grain of sand dropped down too!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yaşasın! İki dakika tamamlandı!",
+     "en": "Hooray! Two minutes are completed!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi köpüğü tükürelim ve suyla çalkalayalım.",
+     "en": "Now let's spit out the foam and rinse with water.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Püfff, tükürdüm! Şimdi su alıyorum.",
+     "en": "Pfft, spit it out! Now I take water.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ağzını güzelce çalkala ve suyu bırak.",
+     "en": "Rinse your mouth well and let the water out.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tertemiz oldu abla, ferah ferah kokuyor!",
+     "en": "It became so clean Mina, it smells so fresh!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "İki dakikalık fırçalama başarıyla bitti.",
+     "en": "The two-minute brushing ended successfully.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Aynaya bakalım ve kocaman gülelim!",
+     "en": "Let's look in the mirror and smile big!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bak dişlerime, yıldız gibi parlıyorlar!",
+     "en": "Look at my teeth, they sparkle like stars!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Benim dişlerim de inci gibi oldu.",
+     "en": "My teeth became like pearls too.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Aynadaki iki gülen yüz çok mutluydu.",
+     "en": "The two smiling faces in the mirror were very happy.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Fırçamızı yıkadık ve yerine bıraktık.",
+     "en": "We washed our brush and placed it back.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Havlumuzla da ağzımızı nazikçe kurulayalım.",
+     "en": "Let's gently dry our mouth with our towel too.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Pofuduk havlu yüzümü gıdıkladı!",
+     "en": "The fluffy towel tickled my face!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Artık uykuya tamamen hazırız Efe.",
+     "en": "Now we are totally ready for sleep Efe.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Pijamalarımızı giyip odamıza gidelim o zaman.",
+     "en": "Let's put on our pajamas and go to our room then.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Işığı kapatıp yataklarımıza geçelim.",
+     "en": "Let's turn off the light and head to our beds.",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuk odası sakin ve huzurlu bir yerdi.",
+     "en": "The kids' bedroom was a calm and peaceful place.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Yatağım ne kadar yumuşak ve rahat!",
+     "en": "How soft and cozy my bed is!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yatağa temiz girmek en güzel histir.",
+     "en": "Going to bed clean is the best feeling.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dişlerimin temizliği bana çok iyi geldi.",
+     "en": "My clean teeth made me feel so good.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Artık gece boyunca dişlerin rahatça dinlenebilir.",
+     "en": "Now your teeth can rest peacefully throughout the night.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Temiz dişler gece boyunca mikroplardan uzak kalır.",
+     "en": "Clean teeth stay away from germs all night long.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Hiçbir mikrop onlara yaklaşamaz!",
+     "en": "No germ can approach them!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çünkü fırçamız hepsini uzaklaştırdı.",
+     "en": "Because our brush sent them all away.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçam sanki bir süper kahraman gibi!",
+     "en": "My toothbrush is like a superhero!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, dişlerimizin koruyucu süper kahramanı.",
+     "en": "Yes, the protective superhero of our teeth.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Yarın sabah da ilk işim fırçalamak olacak.",
+     "en": "Tomorrow morning my first job will be brushing too.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kahvaltıdan hemen sonra yine fırçalayacağız.",
+     "en": "Right after breakfast we will brush again.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Birlikte şarkı da söyleriz değil mi abla?",
+     "en": "We will sing a song together too, right Mina?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Elbette söyleriz, şarkıyla fırçalamak çok eğlenceli.",
+     "en": "Of course we will, brushing with a song is so fun.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina kardeşine bir diş tekerlemesi öğretmeye karar verdi.",
+     "en": "Mina decided to teach her brother a tooth rhyme.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Fırçala fırçala, pırıl pırıl parla!",
+     "en": "Brush brush, shine bright and clean!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçala fırçala, pırıl pırıl parla!",
+     "en": "Brush brush, shine bright and clean!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İki dakika boyunca, neşeyle fırçala!",
+     "en": "For two minutes long, brush with joy!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "İki dakika boyunca, neşeyle fırçala!",
+     "en": "For two minutes long, brush with joy!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Tekerlemeyi tekrar etmek öğrenmeyi çok kolaylaştırır.",
+     "en": "Repeating the rhyme makes learning very easy.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Bu tekerlemeyi çok sevdim abla, hiç unutmam!",
+     "en": "I loved this rhyme so much Mina, I will never forget it!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Her fırçalarken aklına gelsin ve söyle.",
+     "en": "Remember it every time you brush and sing it.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede'ye de öğreteceğim bu tekerlemeyi.",
+     "en": "I will teach this rhyme to Grandpa Hasan too.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede duyunca çok mutlu olur.",
+     "en": "Grandpa Hasan will be very happy when he hears it.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Güzel bilgileri sevdiklerimizle paylaşmak harikadır.",
+     "en": "Sharing good knowledge with our loved ones is wonderful.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Gözlerim yavaşça kapanıyor artık.",
+     "en": "My eyes are slowly closing now.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Uykun geldi küçük kardeşim, iyi geceler.",
+     "en": "You got sleepy my little brother, good night.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "İyi geceler güzel ablam.",
+     "en": "Good night my wonderful sister.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Son bir kez banyodaki aynaya bakıp ışığı kapatalım.",
+     "en": "Let's look in the bathroom mirror one last time and turn off the light.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi son kez bakalım!",
+     "en": "Let's look one last time!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Banyodaki aynada iki küçük inci gibi gülüş vardı.",
+     "en": "In the bathroom mirror, there were two little pearl-like smiles.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Gördün mü Efe? Dişlerimiz karanlıkta bile parlar!",
+     "en": "Did you see Efe? Our teeth shine even in the dark!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet, bembeyaz ve pırıl pırıl oldular!",
+     "en": "Yes, they became snow white and sparkling clean!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çünkü onları sevgiyle ve özenle temizledik.",
+     "en": "Because we cleaned them with love and care.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçalarımız bardakta uslu uslu uyuyor.",
+     "en": "Our brushes are sleeping nicely in the cup.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sabah olunca onları tekrar uyandıracağız.",
+     "en": "When morning comes we will wake them up again.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Diş fırçalamak artık onlar için bir oyundu.",
+     "en": "Brushing teeth was now a game for them.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Dişlerimi çok seviyorum, onlara hep bakacağım.",
+     "en": "I love my teeth very much, I will always care for them.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin benim akıllı kardeşime.",
+     "en": "Good job to my smart brother.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Şimdi yatağa dönüp rüya görme vakti!",
+     "en": "Now it's time to return to bed and dream!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Musluğu kapattık, su boşa akmadı değil mi?",
+     "en": "We turned off the tap, water did not run wastefully right?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kapattım abla! Suyu korumak da çok önemli.",
+     "en": "I turned it off Mina! Saving water is also very important.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Fırçalarken musluğu kapatmak doğayı korur.",
+     "en": "Turning off the tap while brushing protects nature.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar suyu tasarruflu kullanmayı da unutmuyorlardı.",
+     "en": "The children did not forget to use water sparingly either.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede de suyu boşa harcamaz.",
+     "en": "Grandpa Hasan does not waste water either.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, çiçekleri sularken de dikkatli davranır.",
+     "en": "Yes, he acts carefully when watering flowers too.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Biz de her şeyi öğrendik bugün!",
+     "en": "We learned everything today too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hem diş fırçalamayı hem su tasarrufunu.",
+     "en": "Both brushing teeth and saving water.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi artık odamıza geçelim.",
+     "en": "Come on, let's head to our room now.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi bakalım, sessizce parmak ucunda yürüyelim.",
+     "en": "Come on, let's walk quietly on tiptoe.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "night_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Gece lambasının yumuşak ışığı odayı aydınlatıyordu.",
+     "en": "The soft light of the night lamp lit up the room.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Yatağıma yattım, yorganımı da çektim.",
+     "en": "I laid in my bed and pulled up my blanket.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Penceremizden ay dede bize bakıyor.",
+     "en": "The moon is looking at us through our window.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ay dede de gülümsüyor, onun da dişleri temiz!",
+     "en": "The moon is smiling too, his teeth are clean too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ay dedenin gülüşü gökyüzünü aydınlatıyor.",
+     "en": "The moon's smile lights up the sky.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina izleyici arkadaşlarına dönüp tatlıca baktı.",
+     "en": "Mina turned and looked sweetly at her viewer friends.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Sevgili arkadaşlar, siz bu akşam dişlerinizi fırçaladınız mı?",
+     "en": "Dear friends, did you brush your teeth tonight?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Fırçalamayan varsa hemen banyoya koşsun!",
+     "en": "If anyone hasn't brushed, run to the bathroom right now!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İki dakika fırçalamayı ve şarkı söylemeyi unutmayın.",
+     "en": "Don't forget to brush for two minutes and sing along.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sağlıklı dişlerle kocaman gülümseyin!",
+     "en": "Smile big with healthy teeth!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "night_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ile Efe için güzel bir gün daha bitti.",
+     "en": "Another wonderful day ended for Mina and Efe.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Yarın yine çok güzel oyunlar oynayacağız.",
+     "en": "Tomorrow we will play very nice games again.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Parkta Hasan Dede'ye diş tekerlememizi söyleyeceğiz!",
+     "en": "We will tell Grandpa Hasan our tooth rhyme at the park!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi tatlı rüyalar görme zamanı.",
+     "en": "Now it is time to have sweet dreams.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "İyi geceler herkese!",
+     "en": "Good night to everyone!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Gülümsemeniz hiç solmasın, dişleriniz hep parlasın.",
+     "en": "May your smiles never fade, and your teeth always sparkle.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bir sonraki maceramızda görüşmek üzere!",
+     "en": "See you in our next adventure!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "İyi uykular tatlı çocuklar.",
+     "en": "Sleep well, sweet children.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  }
+ ],
+ "topic": "dişlerini fırçalamak"
+}
