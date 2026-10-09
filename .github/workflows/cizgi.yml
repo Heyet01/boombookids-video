@@ -2,7 +2,10 @@ name: Mina ile Efe bolum
 
 on:
   schedule:
-    - cron: "47 6 * * *"   # yedek: 09:47 Turkiye (asil tetik 08:05'te gelir; ayni gun ikinci kez yuklemez)
+    # BoomBooKidsTV (Ingilizce): gunde 1 bolum. Ayni gun ikinci kez yuklemez, bu yuzden birkac deneme var.
+    - cron: "17 13 * * *"   # 16:17 Turkiye = ABD sabahi
+    - cron: "17 15 * * *"   # yedek
+    - cron: "17 17 * * *"   # yedek
   workflow_dispatch:
     inputs:
       dry_run:
@@ -12,7 +15,7 @@ on:
       langs:
         description: "tr,en"
         required: false
-        default: "tr,en"
+        default: "en"
 
 permissions:
   contents: write
@@ -49,7 +52,7 @@ jobs:
           BOOMBOO_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
           MINA_REFRESH_TOKEN: ${{ secrets.MINA_REFRESH_TOKEN }}
           CIZGI_DRY: ${{ inputs.dry_run || '0' }}
-          CIZGI_LANGS: ${{ inputs.langs || 'tr,en' }}
+          CIZGI_LANGS: ${{ inputs.langs || 'en' }}
           CIZGI_CRF: "23"
         run: python tk/tools/cizgi_gunluk.py /tmp/lib out_cizgi cizgi_history.json
       - name: Kaydet
