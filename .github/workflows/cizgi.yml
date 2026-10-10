@@ -1,4 +1,4 @@
-name: Mina ile Efe bolum
+name: BoomBoo Mina & Efe bolum
 
 on:
   schedule:
@@ -12,10 +12,6 @@ on:
         description: "1 = do not upload, save preview"
         required: false
         default: "1"
-      langs:
-        description: "tr,en"
-        required: false
-        default: "en"
 
 permissions:
   contents: write
@@ -50,9 +46,8 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.KIDS_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.KIDS_CLIENT_SECRET }}
           BOOMBOO_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
-          MINA_REFRESH_TOKEN: ${{ secrets.MINA_REFRESH_TOKEN }}
           CIZGI_DRY: ${{ inputs.dry_run || '0' }}
-          CIZGI_LANGS: ${{ inputs.langs || 'en' }}
+          CIZGI_LANGS: "en"   # sadece BoomBooKidsTV (Turkce kanal kaldirildi)
           CIZGI_CRF: "23"
         run: python tk/tools/cizgi_gunluk.py /tmp/lib out_cizgi cizgi_history.json
       - name: Kaydet
@@ -62,7 +57,7 @@ jobs:
           git config user.email "boomboo-bot@users.noreply.github.com"
           rm -rf preview_cizgi && mkdir -p preview_cizgi
           for f in out_cizgi/bolum.json out_cizgi/summary.json; do [ -f "$f" ] && cp "$f" preview_cizgi/; done
-          for l in tr en; do
+          for l in en; do
             [ -f out_cizgi/$l/kapak.jpg ] && cp out_cizgi/$l/kapak.jpg preview_cizgi/kapak_$l.jpg
             if [ "${{ inputs.dry_run }}" = "1" ] && [ -f out_cizgi/$l/bolum.mp4 ]; then
               ffmpeg -loglevel error -y -i out_cizgi/$l/bolum.mp4 -vf scale=854:-2 -c:v libx264 -preset veryfast -crf 31 -c:a aac -b:a 80k preview_cizgi/bolum_$l.mp4
