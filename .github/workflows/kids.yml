@@ -1,6 +1,8 @@
 name: BoomBoo Video
 
 on:
+  schedule:
+    - cron: "47 13 * * *"   # her gun 1 Short: 16:47 Turkiye = ABD sabahi
   workflow_dispatch:
     inputs:
       dry_run:
@@ -47,9 +49,9 @@ jobs:
           KIDS_CLIENT_ID: ${{ secrets.KIDS_CLIENT_ID }}
           KIDS_CLIENT_SECRET: ${{ secrets.KIDS_CLIENT_SECRET }}
           KIDS_REFRESH_TOKEN: ${{ secrets.KIDS_REFRESH_TOKEN }}
-          KIDS_DRY_RUN: ${{ inputs.dry_run }}
-          KIDS_TOPIC: ${{ inputs.topic }}
-          KIDS_MODE: ${{ inputs.mode }}
+          KIDS_DRY_RUN: ${{ inputs.dry_run || '0' }}
+          KIDS_TOPIC: ${{ inputs.topic || '' }}
+          KIDS_MODE: ${{ inputs.mode || 'short' }}
         run: python kids.py
       - name: Save history / preview
         if: always()
