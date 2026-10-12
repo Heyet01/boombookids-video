@@ -33,6 +33,15 @@ jobs:
           TK=https://raw.githubusercontent.com/Heyet01/tarihin-karanligi-video/main
           mkdir -p tk/tools tk/assets tk/cizgi
           for f in tools/cizgi_bolum.py tools/cizgi_gunluk.py cizgi/sahneler.json cizgi/choice.json; do curl -fsSL --retry 5 -o "tk/$f" "$TK/$f"; done
+          # bolum uzunlugu: 6-8 dakika (14-19 dakikalik bolumler hic izlenmedi)
+          python3 - <<'PY'
+          p = "tk/tools/cizgi_gunluk.py"
+          s = open(p, encoding="utf-8").read()
+          old = "Uzunluk: 30-36 sahne, toplam 290-330 satır (yaklaşık 14-15 dakika). Her sahnede 6-12 satır."
+          new = "Uzunluk: 16-20 sahne, toplam 110-140 satır (yaklaşık 6-8 dakika). Her sahnede 5-9 satır. Daha uzun yazma."
+          print("uzunluk ayari:", "uygulandi" if old in s else "BULUNAMADI")
+          open(p, "w", encoding="utf-8").write(s.replace(old, new))
+          PY
           get() { curl -fsSL --retry 5 --retry-delay 6 -o "$1" "https://github.com/google/fonts/raw/main/$2" || curl -fsSL --retry 5 --retry-delay 6 -o "$1" "https://cdn.jsdelivr.net/gh/google/fonts@main/$2"; }
           get /tmp/B.ttf "ofl/baloo2/Baloo2%5Bwght%5D.ttf" && fonttools varLib.instancer /tmp/B.ttf wght=800 -q -o tk/assets/Baloo2-Bold.ttf || true
           get /tmp/O.ttf "ofl/oswald/Oswald%5Bwght%5D.ttf" && fonttools varLib.instancer /tmp/O.ttf wght=700 -q -o tk/assets/Oswald-Bold.ttf || true
