@@ -1,45 +1,45 @@
 {
- "title_tr": "On'a Kadar Sayıyoruz",
- "title_en": "Counting to Ten",
- "cover_tr": "On'a Kadar Say!",
- "cover_en": "Count to Ten!",
- "cover_bg": "home_living",
+ "title_tr": "Renkli Tabaklar Güçlü Çocuklar",
+ "title_en": "Colorful Plates Strong Kids",
+ "cover_tr": "Gökkuşağı Tabağı",
+ "cover_en": "Rainbow Plate",
+ "cover_bg": "kitchen",
  "cover_poses": {
   "mina": "happy",
   "efe": "happy"
  },
- "description_tr": "Mina ve Efe, eğlenceli bir oyunla 1'den 10'a kadar saymayı öğreniyorlar. Hasan Dede'nin yardımıyla parmaklarını ve etraflarındaki nesneleri sayarak sayıların sırasını keşfediyorlar.",
- "description_en": "Mina and Efe learn to count from 1 to 10 through a fun game. With Grandpa Hasan's help, they count their fingers and objects, discovering the order of numbers.",
+ "description_tr": "Mina ve Efe, meyve ve sebzelerin rengârenk dünyasını keşfediyor. Sağlıklı beslenmenin vücudumuza nasıl enerji ve güç verdiğini Hasan Dede ile birlikte öğreniyorlar.",
+ "description_en": "Mina and Efe discover the colorful world of fruits and vegetables. Together with Grandpa Hasan, they learn how healthy eating provides energy and strength to our bodies.",
  "tags_tr": [
+  "meyve ve sebze",
+  "sağlıklı beslenme",
   "okul öncesi",
-  "sayı sayma",
-  "1'den 10'a sayma",
+  "çizgi dizi",
   "eğitici çizgi film",
-  "Mina ile Efe",
-  "çocuk dizisi",
-  "matematik",
-  "eğlenceli öğrenme",
-  "okul öncesi matematik",
-  "Türkçe çizgi film"
+  "mina ile efe",
+  "hasan dede",
+  "çocuk gelişimi",
+  "renkli tabaklar",
+  "enerji ve sağlık"
  ],
  "tags_en": [
-  "preschool",
-  "counting",
-  "count to 10",
-  "educational cartoon",
-  "Mina and Efe",
-  "kids show",
-  "math",
-  "fun learning",
-  "preschool math",
-  "turkish cartoon"
+  "fruits and vegetables",
+  "healthy eating",
+  "preschool cartoon",
+  "educational animation",
+  "mina and efe",
+  "grandpa hasan",
+  "child health",
+  "kids nutrition",
+  "healthy habits",
+  "preschool learning"
  ],
  "scenes": [
   {
-   "bg": "home_living",
+   "bg": "kitchen",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -48,55 +48,57 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Güneşli bir sabah Mina ve Efe evde oynuyorlar.",
-     "en": "On a sunny morning, Mina and Efe are playing at home.",
+     "text": "Güneşli bir sabahta Mina ve Efe mutfakta buluştu.",
+     "en": "On a sunny morning, Mina and Efe met in the kitchen.",
      "pose": {}
     },
     {
      "who": "mina",
-     "text": "Merhaba arkadaşlar! Bugün çok neşeli bir gün.",
-     "en": "Hello friends! Today is a very cheerful day.",
+     "text": "Merhaba arkadaşlar, mutfağımıza hoş geldiniz!",
+     "en": "Hello friends, welcome to our kitchen!",
      "pose": {
       "mina": "wave"
      }
     },
     {
      "who": "efe",
-     "text": "Abla, renkli küplerimle kocaman bir kule yapıyorum!",
-     "en": "Sister, I am making a huge tower with my colorful blocks!",
+     "text": "Karnım çok acıktı abla!",
+     "en": "I am very hungry, big sister!",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Harika Efe! Kaç tane küp koydun?",
-     "en": "Great Efe! How many blocks did you place?",
+     "text": "Bak masada kıpkırmızı elmalar ve havuçlar var.",
+     "en": "Look, there are bright red apples and carrots on the table.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ama ben sadece kurabiye yemek istiyorum.",
+     "en": "But I only want to eat cookies.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sebze ve meyveler bize koşmak için güç verir.",
+     "en": "Vegetables and fruits give us power to run.",
      "pose": {
       "mina": "talk"
      }
     },
     {
      "who": "efe",
-     "text": "Bir, iki, beş, on! Çok oldu!",
-     "en": "One, two, five, ten! It's a lot!",
+     "text": "Gerçekten güçlü yapar mı?",
+     "en": "Do they really make us strong?",
      "pose": {
       "efe": "happy"
      }
-    },
-    {
-     "who": "mina",
-     "text": "Aaa! Bazı sayıları unuttun galiba Efe.",
-     "en": "Oh! I think you forgot some numbers, Efe.",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "anlatici",
-     "text": "Efe sayıları sırayla saymayı henüz tam bilmiyor.",
-     "en": "Efe doesn't quite know how to count numbers in order yet.",
-     "pose": {}
     }
    ],
    "cam": [
@@ -106,10 +108,10 @@
    ]
   },
   {
-   "bg": "home_living",
+   "bg": "kitchen",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -117,59 +119,57 @@
    },
    "lines": [
     {
+     "who": "anlatici",
+     "text": "Mina tabağa renkli meyve dilimleri koydu.",
+     "en": "Mina put colorful fruit slices on the plate.",
+     "pose": {}
+    },
+    {
      "who": "mina",
-     "text": "Hadi küpleri baştan ve sırayla sayalım.",
-     "en": "Let's count the blocks from the beginning and in order.",
+     "text": "Evet Efe, rengârenk tabaklar tam bir enerji deposudur!",
+     "en": "Yes Efe, colorful plates are full of energy!",
      "pose": {
       "mina": "talk"
      }
     },
     {
      "who": "efe",
-     "text": "Tamam abla! Sen başla, ben takip edeyim.",
-     "en": "Okay sister! You start, I'll follow.",
+     "text": "Kırmızı elma çok tatlı kokuyor.",
+     "en": "The red apple smells very sweet.",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Bak, bu birinci küp. Bir!",
-     "en": "Look, this is the first block. One!",
+     "text": "Hadi bir dilim elma tat bakalım.",
+     "en": "Come on, taste an apple slice.",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Bir! Kırmızı küp!",
-     "en": "One! Red block!",
+     "text": "Kıtır kıtır! Tadı harikaymış abla!",
+     "en": "Crunchy crunchy! It tastes wonderful, sister!",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Şimdi ikinciyi koyuyoruz. İki!",
-     "en": "Now we put the second one. Two!",
+     "text": "Meyveler hem lezzetli hem de çok sağlıklıdır.",
+     "en": "Fruits are both delicious and very healthy.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Arkadaşlar, siz en çok hangi meyveyi seversiniz?",
+     "en": "Friends, which fruit do you like the most?",
      "pose": {
       "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "İki! Mavi küp!",
-     "en": "Two! Blue block!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Üçüncü küpü de ekledik. Üç!",
-     "en": "We also added the third block. Three!",
-     "pose": {
-      "mina": "point"
      }
     }
    ],
@@ -180,10 +180,10 @@
    ]
   },
   {
-   "bg": "home_garden",
+   "bg": "kitchen",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -192,56 +192,56 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Mina ve Efe bahçeye çıkıp saymaca oynamaya karar verdiler.",
-     "en": "Mina and Efe decided to go out to the garden and play a counting game.",
+     "text": "Efe tabağındaki havuç dilimlerine merakla baktı.",
+     "en": "Efe looked curiously at the carrot slices on his plate.",
      "pose": {}
     },
     {
-     "who": "mina",
-     "text": "Bahçemizde lezzetli kırmızı çilekler var!",
-     "en": "There are delicious red strawberries in our garden!",
-     "pose": {
-      "mina": "wave"
-     }
-    },
-    {
      "who": "efe",
-     "text": "Çilekleri sayarak toplayalım mı abla?",
-     "en": "Shall we pick the strawberries by counting them, sister?",
+     "text": "Havuçlar turuncu ve çok parlak görünüyor.",
+     "en": "The carrots look orange and very bright.",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Çok iyi fikir! On tane çilek bulalım.",
-     "en": "Great idea! Let's find ten strawberries.",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Bir, iki, üç çilek zaten biliyorduk!",
-     "en": "One, two, three strawberries we already knew!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Şimdi dördüncü çileği bulduk. Dört!",
-     "en": "Now we found the fourth strawberry. Four!",
+     "text": "Havuç gözlerimize çok iyi gelir Efe.",
+     "en": "Carrots are very good for our eyes, Efe.",
      "pose": {
       "mina": "talk"
      }
     },
     {
      "who": "efe",
-     "text": "Dört! Tatlı kırmızı çilek!",
-     "en": "Four! Sweet red strawberry!",
+     "text": "Kıtırt! Ben bir tavşan gibi çıtırdatıyorum!",
+     "en": "Crunch! I am crunching like a little bunny!",
      "pose": {
       "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harikasın Efe, sebzeler vücudumuzun en iyi dostudur.",
+     "en": "Awesome Efe, vegetables are our body's best friends.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bahçedeki sebzelere de bakalım mı?",
+     "en": "Shall we look at the vegetables in the garden too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harika fikir, hadi bahçeye çıkalım!",
+     "en": "Great idea, let's go out to the garden!",
+     "pose": {
+      "mina": "wave"
      }
     }
    ],
@@ -255,58 +255,68 @@
    "bg": "home_garden",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center",
+    "dede": "right"
    },
    "start_pose": {
     "mina": "happy",
-    "efe": "happy"
+    "efe": "happy",
+    "dede": "happy"
    },
    "lines": [
     {
-     "who": "mina",
-     "text": "İşte burada bir çilek daha var. Beş!",
-     "en": "Here is another strawberry. Five!",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Beş! Sepetimiz doluyor!",
-     "en": "Five! Our basket is filling up!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Aferin sana Efe! Devam edelim.",
-     "en": "Well done Efe! Let me continue.",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Yaprağın altında bir tane daha var. Altı!",
-     "en": "There is another one under the leaf. Six!",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Altı! Saymak ne kadar eğlenceliymiş!",
-     "en": "Six! Counting is so much fun!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
      "who": "anlatici",
-     "text": "Çocuklar saydıkça daha çok eğleniyorlar.",
-     "en": "The children have more fun as they count.",
+     "text": "Çocuklar bahçede çalışan Hasan Dede'nin yanına koştular.",
+     "en": "The children ran to Grandpa Hasan working in the garden.",
      "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Kolay gelsin Hasan Dede!",
+     "en": "Good day Grandpa Hasan, good work!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Hoş geldiniz minikler, bahçemize bakın ne kadar güzel!",
+     "en": "Welcome little ones, look how beautiful our garden is!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede, burada hangi sebzeler büyüyor?",
+     "en": "Grandpa Hasan, which vegetables are growing here?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Kırmızı domatesler, yeşil biberler ve turuncu havuçlar var.",
+     "en": "There are red tomatoes, green peppers, and orange carrots.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Tıpkı gökkuşağı gibi rengârenk!",
+     "en": "Just like a rainbow, so colorful!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Sebzeler güneş ve suyla sağlık saçar çocuklar.",
+     "en": "Vegetables spread health with sun and water, children.",
+     "pose": {
+      "dede": "happy"
+     }
     }
    ],
    "cam": [
@@ -319,58 +329,68 @@
    "bg": "home_garden",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center",
+    "dede": "right"
    },
    "start_pose": {
     "mina": "happy",
-    "efe": "happy"
+    "efe": "happy",
+    "dede": "happy"
    },
    "lines": [
     {
-     "who": "mina",
-     "text": "Bak Efe, bu da yedinci çilek. Yedi!",
-     "en": "Look Efe, this is the seventh strawberry. Seven!",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Yedi! Çilekler ne kadar parlak!",
-     "en": "Seven! How bright the strawberries look!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Hedefimiz on tane çilek bulmak.",
-     "en": "Our goal is to find ten strawberries.",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Parka gidelim mi? Belki orada da sayarız!",
-     "en": "Shall we go to the park? Maybe we can count there too!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Evet, parka gidip Hasan Dede'yi görelim!",
-     "en": "Yes, let's go to the park and see Grandpa Hasan!",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
      "who": "anlatici",
-     "text": "Çocuklar parkın yolunu tuttular.",
-     "en": "The children headed to the park.",
+     "text": "Efe taze bir salatalığa dokundu.",
+     "en": "Efe touched a fresh cucumber.",
      "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bu yeşil salatalık minik yaprakların altında saklanmış!",
+     "en": "This green cucumber was hiding under the little leaves!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Topraktan gelen bu yiyecekler bizi güçlü tutar.",
+     "en": "These foods from the soil keep us strong.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Efe bugün elma ve havuç yedi Hasan Dede!",
+     "en": "Efe ate apples and carrots today, Grandpa Hasan!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Aferin Efe'ye, bol bol vitamin toplamışsın!",
+     "en": "Well done Efe, you gathered lots of vitamins!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben de kocaman ve güçlü olacağım!",
+     "en": "I will be big and strong too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Şimdi bunları yıkayıp parka götürebilirsiniz.",
+     "en": "Now you can wash them and take them to the park.",
+     "pose": {
+      "dede": "happy"
+     }
     }
    ],
    "cam": [
@@ -383,7 +403,7 @@
    "bg": "park_path",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "midleft"
    },
    "start_pose": {
     "mina": "happy",
@@ -392,184 +412,56 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Parkın neşeli yürüyüş yolında kozalaklar vardı.",
-     "en": "There were pinecones on the cheerful walking path of the park.",
+     "text": "Mina ve Efe park yolunda neşeyle yürüdüler.",
+     "en": "Mina and Efe walked joyfully along the park path.",
      "pose": {}
     },
     {
      "who": "mina",
-     "text": "Bak Efe, yerde küçük kozalaklar var!",
-     "en": "Look Efe, there are small pinecones on the ground!",
-     "pose": {
-      "mina": "wave"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Abla, kozalakları da sayalım mı?",
-     "en": "Sister, shall we count the pinecones too?",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Tabii ki! Yedi sayısı kalmıştı aklımızda.",
-     "en": "Of course! Number seven was in our minds.",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Yediden sonra ne geliyordu abla?",
-     "en": "What comes after seven, sister?",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Yediden sonra sekiz gelir. Sekiz!",
-     "en": "Eight comes after seven. Eight!",
+     "text": "Temiz havada yürümek ne kadar güzel değil mi?",
+     "en": "Isn't it wonderful walking in the fresh air?",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Sekiz kozalak! Çok komik görünüyorlar.",
-     "en": "Eight pinecones! They look so funny.",
+     "text": "Kendimi çok enerjik hissediyorum abla!",
+     "en": "I feel so energetic, big sister!",
      "pose": {
       "efe": "happy"
      }
-    }
-   ],
-   "cam": [
-    1.04,
-    1.0,
-    -0.02
-   ]
-  },
-  {
-   "bg": "park_path",
-   "chars": {
-    "mina": "left",
-    "efe": "midright"
-   },
-   "start_pose": {
-    "mina": "happy",
-    "efe": "happy"
-   },
-   "lines": [
+    },
     {
      "who": "mina",
-     "text": "Şimdi bir kozalak daha ekliyoruz. Dokuz!",
-     "en": "Now we add one more pinecone. Nine!",
+     "text": "Çünkü sabah meyve ve sebze yedin!",
+     "en": "Because you ate fruit and vegetables this morning!",
      "pose": {
       "mina": "talk"
      }
     },
     {
      "who": "efe",
-     "text": "Dokuz! Neredeyse on olacak!",
-     "en": "Nine! It's almost ten!",
+     "text": "Hadi sayalım, kaç tane renkli meyve biliyoruz?",
+     "en": "Let's count, how many colorful fruits do we know?",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "İşte son kozalak! On!",
-     "en": "Here is the last pinecone! Ten!",
+     "text": "Elma bir, muz iki, portakal üç!",
+     "en": "Apple is one, banana is two, orange is three!",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Oley! Birden ona kadar saydık!",
-     "en": "Yay! We counted from one to ten!",
+     "text": "Çilek dört, karpuz beş!",
+     "en": "Strawberry is four, watermelon is five!",
      "pose": {
       "efe": "happy"
-     }
-    },
-    {
-     "who": "anlatici",
-     "text": "Efe on sayısını öğrenince çok mutlu oldu.",
-     "en": "Efe was very happy when he learned the number ten.",
-     "pose": {}
-    },
-    {
-     "who": "mina",
-     "text": "Hadi Hasan Dede'ye gösterelim!",
-     "en": "Let's show Grandpa Hasan!",
-     "pose": {
-      "mina": "talk"
-     }
-    }
-   ],
-   "cam": [
-    1.0,
-    1.04,
-    0.02
-   ]
-  },
-  {
-   "bg": "park_path",
-   "chars": {
-    "mina": "left",
-    "efe": "midright"
-   },
-   "start_pose": {
-    "mina": "happy",
-    "efe": "happy"
-   },
-   "lines": [
-    {
-     "who": "efe",
-     "text": "Abla, ama ben hepsini unutmaktan korkuyorum.",
-     "en": "Sister, but I'm afraid of forgetting them all.",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Korkma Efe, pratik yaptıkça öğreneceksin.",
-     "en": "Don't worry Efe, you will learn as we practice.",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Sayılar sırayla birer birer büyür.",
-     "en": "Numbers grow one by one in order.",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Sırayla saymak çok kolaymış!",
-     "en": "Counting in order is so easy!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "anlatici",
-     "text": "Mina kardeşine sevgiyle destek oluyor.",
-     "en": "Mina lovingly supports her brother.",
-     "pose": {}
-    },
-    {
-     "who": "mina",
-     "text": "Bak, çınar ağacının altında Hasan Dede duruyor!",
-     "en": "Look, Grandpa Hasan is standing under the plane tree!",
-     "pose": {
-      "mina": "wave"
      }
     }
    ],
@@ -583,59 +475,201 @@
    "bg": "park_tree",
    "chars": {
     "mina": "left",
-    "efe": "midleft",
-    "dede": "right"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
-    "efe": "happy",
-    "dede": "happy"
+    "efe": "happy"
    },
    "lines": [
     {
-     "who": "dede",
-     "text": "Hoş geldiniz güzel çocuklar! Ne yapıyorsunuz?",
-     "en": "Welcome lovely children! What are you doing?",
-     "pose": {
-      "dede": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Merhaba Hasan Dede! Bugün on'a kadar saymayı öğreniyoruz.",
-     "en": "Hello Grandpa Hasan! Today we are learning to count up to ten.",
-     "pose": {
-      "mina": "wave"
-     }
+     "who": "anlatici",
+     "text": "İki kardeş yaşlı çınar ağacının altına oturdular.",
+     "en": "The two siblings sat under the old plane tree.",
+     "pose": {}
     },
     {
      "who": "efe",
-     "text": "Hasan Dede, ben sekiz ve dokuzu öğrendim!",
-     "en": "Grandpa Hasan, I learned eight and nine!",
+     "text": "Abla, yeşil sebzeler de çok eğlenceli mi?",
+     "en": "Big sister, are green vegetables fun too?",
      "pose": {
       "efe": "happy"
      }
     },
     {
-     "who": "dede",
-     "text": "Aferin sana Efe! Sayılar hayatı çok kolaylaştırır.",
-     "en": "Well done Efe! Numbers make life so much easier.",
+     "who": "mina",
+     "text": "Tabii ki! Marul, brokoli ve taze bezelyeler var.",
+     "en": "Of course! There are lettuce, broccoli, and fresh peas.",
      "pose": {
-      "dede": "happy"
+      "mina": "talk"
      }
     },
     {
+     "who": "efe",
+     "text": "Brokoli küçük ağaçlara benziyor!",
+     "en": "Broccoli looks like tiny trees!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, küçük minik lezzetli ağaçlar!",
+     "en": "Yes, tiny delicious little trees!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Arkadaşlar, siz küçük brokoli ağaçlarını sever misiniz?",
+     "en": "Friends, do you like little broccoli trees?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben artık hepsini denemek istiyorum!",
+     "en": "Now I want to try them all!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "center"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
      "who": "anlatici",
-     "text": "Hasan Dede çocuklara sevgiyle gülümsedi.",
-     "en": "Grandpa Hasan smiled lovingly at the children.",
+     "text": "Mina çantasından küçük bir suluk çıkardı.",
+     "en": "Mina took a small water bottle out of her bag.",
      "pose": {}
     },
     {
      "who": "mina",
-     "text": "Sayıları hiç unutmamak için bir ipucu var mı?",
-     "en": "Is there a tip to never forget the numbers?",
+     "text": "Meyvelerden sonra su içmek de çok önemlidir.",
+     "en": "Drinking water after fruits is also very important.",
      "pose": {
       "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kana kana su içtim, enerjim daha da arttı!",
+     "en": "I drank water heartily, my energy increased even more!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bak oyun parkı hemen ileride bizi bekliyor.",
+     "en": "Look, the playground is waiting for us right ahead.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Koşalım mı abla? Hadi yarışalım!",
+     "en": "Shall we run, sister? Let's race!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Dikkatli koş Efe, ben de geliyorum!",
+     "en": "Run carefully Efe, I am coming too!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuklar oyun parkındaki kaydırağın yanına vardılar.",
+     "en": "The children arrived beside the slide in the playground.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bak abla, merdivenleri ne kadar hızlı çıktım!",
+     "en": "Look sister, how fast I climbed the stairs!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Vücudun vitaminlerle doldu, çok güçlüsün!",
+     "en": "Your body is filled with vitamins, you are so strong!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Vııın! Kaydıraktan kaymak çok eğlenceli!",
+     "en": "Whoosh! Sliding down is so much fun!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi de salıncakta sallanalım mı?",
+     "en": "Shall we swing on the swings now?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet, gökyüzüne kadar uçmak istiyorum!",
+     "en": "Yes, I want to fly up to the sky!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sebzeler kaslarımıza işte böyle güç katar.",
+     "en": "Vegetables add power to our muscles just like this.",
+     "pose": {
+      "mina": "happy"
      }
     }
    ],
@@ -646,63 +680,69 @@
    ]
   },
   {
-   "bg": "park_tree",
+   "bg": "playground",
    "chars": {
     "mina": "left",
-    "efe": "midleft",
-    "dede": "right"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
-    "efe": "happy",
-    "dede": "happy"
+    "efe": "happy"
    },
    "lines": [
     {
-     "who": "dede",
-     "text": "Elbette var! En güzel sayma aracı ellerimizdir.",
-     "en": "Of course there is! Our hands are the best counting tool.",
-     "pose": {
-      "dede": "happy"
-     }
+     "who": "anlatici",
+     "text": "Mina ve Efe parkta neşeyle oyunlar oynadılar.",
+     "en": "Mina and Efe happily played games in the park.",
+     "pose": {}
     },
     {
      "who": "efe",
-     "text": "Ellerimiz mi? Nasıl yani?",
-     "en": "Our hands? What do you mean?",
+     "text": "Hiç yorulmadım abla, yine koşabilirim!",
+     "en": "I didn't get tired at all sister, I can run again!",
      "pose": {
       "efe": "happy"
      }
     },
     {
-     "who": "dede",
-     "text": "İki elimizde toplam on tane parmak var!",
-     "en": "We have ten fingers in total on both hands!",
+     "who": "mina",
+     "text": "Düzenli ve sağlıklı beslenince hiç yorulmayız.",
+     "en": "When we eat regular and healthy food, we don't get tired.",
      "pose": {
-      "dede": "happy"
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kurabiye yiyince çabuk uykum geliyordu.",
+     "en": "When I ate cookies, I used to get sleepy quickly.",
+     "pose": {
+      "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Aaa evet! Parmaklarımızı sayabiliriz!",
-     "en": "Oh yes! We can count our fingers!",
+     "text": "Çünkü taze meyveler bize gerçek enerji verir.",
+     "en": "Because fresh fruits give us real energy.",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Hadi parmaklarımızı sayalım Hasan Dede!",
-     "en": "Let's count our fingers Grandpa Hasan!",
+     "text": "Yaşasın meyveler ve sebzeler!",
+     "en": "Hooray for fruits and vegetables!",
      "pose": {
       "efe": "happy"
      }
     },
     {
-     "who": "anlatici",
-     "text": "Hasan Dede ellerini çocuklara doğru açtı.",
-     "en": "Grandpa Hasan opened his hands toward the children.",
-     "pose": {}
+     "who": "mina",
+     "text": "Bak Hasan Dede piknik örtüsünü sermiş bile!",
+     "en": "Look, Grandpa Hasan has already spread the picnic blanket!",
+     "pose": {
+      "mina": "wave"
+     }
     }
    ],
    "cam": [
@@ -712,10 +752,10 @@
    ]
   },
   {
-   "bg": "park_tree",
+   "bg": "picnic",
    "chars": {
     "mina": "left",
-    "efe": "midleft",
+    "efe": "center",
     "dede": "right"
    },
    "start_pose": {
@@ -725,33 +765,195 @@
    },
    "lines": [
     {
+     "who": "anlatici",
+     "text": "Hasan Dede ağacın gölgesine güzel bir sofra hazırladı.",
+     "en": "Grandpa Hasan prepared a nice table in the shade of the tree.",
+     "pose": {}
+    },
+    {
      "who": "dede",
-     "text": "Bir, iki, üç, dört, beş! Bir elde beş parmak!",
-     "en": "One, two, three, four, five! Five fingers on one hand!",
+     "text": "Gelin bakalım çalışkan minikler, acıktınız mı?",
+     "en": "Come here hardworking little ones, are you hungry?",
      "pose": {
       "dede": "happy"
      }
     },
     {
-     "who": "mina",
-     "text": "Altı, yedi, sekiz, dokuz, on! İki elde on parmak!",
-     "en": "Six, seven, eight, nine, ten! Ten fingers on two hands!",
+     "who": "efe",
+     "text": "Hem de çok acıktım Hasan Dede!",
+     "en": "And I am very hungry, Grandpa Hasan!",
      "pose": {
-      "mina": "talk"
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede bize neler getirdin?",
+     "en": "Grandpa Hasan, what did you bring us?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Bahçeden taze salatalık, domates ve tatlı elmalar getirdim.",
+     "en": "I brought fresh cucumbers, tomatoes, and sweet apples from the garden.",
+     "pose": {
+      "dede": "happy"
      }
     },
     {
      "who": "efe",
-     "text": "Parmaklarım her zaman yanımda! Hiç unutmam!",
-     "en": "My fingers are always with me! I will never forget!",
+     "text": "Hepsini afiyetle yiyeceğim!",
+     "en": "I will eat them all with pleasure!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sebzeleri yemek çok keyifli!",
+     "en": "Eating vegetables is so enjoyable!",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "picnic",
+   "chars": {
+    "mina": "left",
+    "efe": "center",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Hep birlikte temiz örtünün üstüne oturdular.",
+     "en": "Together they sat on the clean blanket.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Çıtır salatalık çok lezzetliymiş!",
+     "en": "The crunchy cucumber is very delicious!",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "dede",
-     "text": "İşte bu harika bir keşif oldu Efe.",
-     "en": "That turned out to be a wonderful discovery, Efe.",
+     "text": "Her rengin vücudumuza ayrı bir faydası vardır.",
+     "en": "Each color has a different benefit for our body.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kırmızı domates kalbimizi korur değil mi Hasan Dede?",
+     "en": "Red tomatoes protect our heart, right Grandpa Hasan?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Çok doğru akıllı Mina, yeşiller de bizi büyütür.",
+     "en": "Very true smart Mina, and greens help us grow.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben de yeşil yaprakları çok seviyorum!",
+     "en": "I like green leaves very much too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Rengârenk beslenmek vücudumuz için en güzel şey!",
+     "en": "Eating colorful foods is the best thing for our body!",
+     "pose": {
+      "mina": "point"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "picnic",
+   "chars": {
+    "mina": "left",
+    "efe": "center",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuklar tabaklarındaki bütün meyve dilimlerini bitirdiler.",
+     "en": "The children finished all the fruit slices on their plates.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Tabağımı tertemiz yaptım Hasan Dede!",
+     "en": "I made my plate clean, Grandpa Hasan!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Efe tabağını bitirdi, kocaman bir alkışı hak etti!",
+     "en": "Efe finished his plate, he earned a big applause!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin canım kardeşim!",
+     "en": "Well done, my dear brother!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Meyve ve sebze yemek çok kolay ve eğlenceliymiş.",
+     "en": "Eating fruits and vegetables was so easy and fun.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Sağlıklı büyümek için her gün taze beslenmeliyiz.",
+     "en": "To grow healthily, we should eat fresh food every day.",
      "pose": {
       "dede": "happy"
      }
@@ -763,148 +965,6 @@
      "pose": {
       "mina": "wave"
      }
-    },
-    {
-     "who": "anlatici",
-     "text": "Çocuklar sevinçle oyun parkına koştular.",
-     "en": "The children happily ran to the playground.",
-     "pose": {}
-    }
-   ],
-   "cam": [
-    1.0,
-    1.04,
-    -0.02
-   ]
-  },
-  {
-   "bg": "playground",
-   "chars": {
-    "mina": "left",
-    "efe": "midright"
-   },
-   "start_pose": {
-    "mina": "happy",
-    "efe": "happy"
-   },
-   "lines": [
-    {
-     "who": "anlatici",
-     "text": "Oyun parkında kaydırağa doğru adımları sayacaklar.",
-     "en": "In the playground, they will count steps toward the slide.",
-     "pose": {}
-    },
-    {
-     "who": "mina",
-     "text": "Efe, kaydırağa kadar kaç adım atacağız?",
-     "en": "Efe, how many steps will we take to the slide?",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "On adımda varabilir miyiz abla?",
-     "en": "Can we reach it in ten steps, sister?",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Hadi birlikte adımlarımızı sayalım!",
-     "en": "Let's count our steps together!",
-     "pose": {
-      "mina": "point"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Bir, iki, üç, dört!",
-     "en": "One, two, three, four!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Beş, altı, yedi, sekiz!",
-     "en": "Five, six, seven, eight!",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Dokuz ve on! Kaydırağa geldik!",
-     "en": "Nine and ten! We made it to the slide!",
-     "pose": {
-      "efe": "happy"
-     }
-    }
-   ],
-   "cam": [
-    1.04,
-    1.0,
-    -0.02
-   ]
-  },
-  {
-   "bg": "playground",
-   "chars": {
-    "mina": "left",
-    "efe": "midright"
-   },
-   "start_pose": {
-    "mina": "happy",
-    "efe": "happy"
-   },
-   "lines": [
-    {
-     "who": "mina",
-     "text": "Harika saydın Efe! Bütün sayıları doğru bildin.",
-     "en": "Great counting Efe! You got all the numbers right.",
-     "pose": {
-      "mina": "wave"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Sayılar birbirinin arkadaşı gibi!",
-     "en": "Numbers are like friends to each other!",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "anlatici",
-     "text": "Efe artık sayıları sırayla sayabiliyor.",
-     "en": "Efe can now count numbers in order.",
-     "pose": {}
-    },
-    {
-     "who": "mina",
-     "text": "Hadi piknik örtümüze gidip dinlenelim.",
-     "en": "Let's go to our picnic blanket and rest.",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Orada da meyveleri sayalım mı?",
-     "en": "Shall we count fruits there too?",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Elbette, harika bir fikir!",
-     "en": "Of course, great idea!",
-     "pose": {
-      "mina": "point"
-     }
     }
    ],
    "cam": [
@@ -914,10 +974,10 @@
    ]
   },
   {
-   "bg": "picnic",
+   "bg": "home_living",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -926,56 +986,56 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Yeşil çimlerde piknik örtüsünü serdiler.",
-     "en": "They spread the picnic blanket on the green grass.",
+     "text": "Mina ve Efe neşeyle eve döndüler.",
+     "en": "Mina and Efe returned home happily.",
      "pose": {}
     },
     {
+     "who": "efe",
+     "text": "Abla, bugün kendimi çok güçlü hissediyorum!",
+     "en": "Big sister, I feel very strong today!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
      "who": "mina",
-     "text": "Tabağımıza on tane üzüm koyalım.",
-     "en": "Let's put ten grapes on our plate.",
+     "text": "Çünkü vücuduna en güzel yiyecekleri verdin.",
+     "en": "Because you gave your body the best foods.",
      "pose": {
       "mina": "talk"
      }
     },
     {
      "who": "efe",
-     "text": "Ben tek tek sayarak koyacağım abla.",
-     "en": "I will put them one by one by counting, sister.",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Bir, iki, üç, dört, beş!",
-     "en": "One, two, three, four, five!",
+     "text": "Artık abur cubur yerine renkli meyveler isteyeceğim.",
+     "en": "From now on, I will ask for colorful fruits instead of junk food.",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Çok güzel! Devam et Efe.",
-     "en": "Very good! Continue Efe.",
+     "text": "Bak oyuncaklarımız burada, hadi kule yapalım!",
+     "en": "Look, our toys are here, let's build a tower!",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Altı, yedi, sekiz, dokuz, on!",
-     "en": "Six, seven, eight, nine, ten!",
+     "text": "En yüksek kuleyi ben yapacağım!",
+     "en": "I will build the highest tower!",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Aferin sana! Tam on tane tatlı üzüm!",
-     "en": "Well done! Exactly ten sweet grapes!",
+     "text": "Sağlıklı çocuklar her oyunu neşeyle oynar!",
+     "en": "Healthy kids play every game joyfully!",
      "pose": {
-      "mina": "wave"
+      "mina": "happy"
      }
     }
    ],
@@ -986,10 +1046,10 @@
    ]
   },
   {
-   "bg": "picnic",
+   "bg": "home_living",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -998,55 +1058,49 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Mina ve Efe ekran başındaki arkadaşlarına dönüyor.",
-     "en": "Mina and Efe turn to their friends watching.",
+     "text": "Efe legolarla rengârenk bir meyve sepeti yaptı.",
+     "en": "Efe built a colorful fruit basket with toy blocks.",
      "pose": {}
     },
     {
-     "who": "mina",
-     "text": "Sevgili arkadaşlar, siz de bizimle saydınız mı?",
-     "en": "Dear friends, did you count with us too?",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
      "who": "efe",
-     "text": "Hadi hep birlikte 1'den 10'a kadar sayalım!",
-     "en": "Let's all count together from 1 to 10!",
+     "text": "Bak abla, bu kırmızı elma, bu da sarı muz!",
+     "en": "Look sister, this is a red apple, and this is a yellow banana!",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Hazır mısınız? Başlıyoruz!",
-     "en": "Are you ready? Here we go!",
+     "text": "Harika bir meyve sepeti olmuş Efe!",
+     "en": "That's a wonderful fruit basket, Efe!",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Bir, iki, üç, dört, beş!",
-     "en": "One, two, three, four, five!",
+     "text": "Arkadaşlar, siz en çok hangi sebzeyi seversiniz?",
+     "en": "Friends, which vegetable do you like the most?",
      "pose": {
       "efe": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Altı, yedi, sekiz, dokuz, on!",
-     "en": "Six, seven, eight, nine, ten!",
+     "text": "Havuç mu, domates mi, yoksa çıtır salatalık mı?",
+     "en": "Carrot, tomato, or crunchy cucumber?",
      "pose": {
       "mina": "talk"
      }
     },
     {
-     "who": "anlatici",
-     "text": "Hep birlikte saymak ne kadar neşeli!",
-     "en": "How joyful it is to count all together!",
-     "pose": {}
+     "who": "efe",
+     "text": "Hepsini yemek bizi kocaman yapar!",
+     "en": "Eating them all makes us grow big!",
+     "pose": {
+      "efe": "happy"
+     }
     }
    ],
    "cam": [
@@ -1056,10 +1110,10 @@
    ]
   },
   {
-   "bg": "picnic",
+   "bg": "kitchen",
    "chars": {
     "mina": "left",
-    "efe": "midright"
+    "efe": "center"
    },
    "start_pose": {
     "mina": "happy",
@@ -1067,47 +1121,47 @@
    },
    "lines": [
     {
-     "who": "mina",
-     "text": "Siz de evdeki oyuncaklarınızı on'a kadar sayabilirsiniz.",
-     "en": "You can count your toys at home up to ten too.",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Parmaklarınızı saymayı unutmayın!",
-     "en": "Don't forget to count your fingers!",
-     "pose": {
-      "efe": "happy"
-     }
+     "who": "anlatici",
+     "text": "Akşamüstü Mina ve Efe mutfakta küçük bir tabak hazırladılar.",
+     "en": "In the late afternoon, Mina and Efe prepared a little plate in the kitchen.",
+     "pose": {}
     },
     {
      "who": "mina",
-     "text": "Sayıları sırayla saymak çok kolay ve zevkli.",
-     "en": "Counting numbers in order is very easy and fun.",
+     "text": "Tabaklarımıza gökkuşağı renklerini koyduk!",
+     "en": "We put rainbow colors on our plates!",
      "pose": {
       "mina": "point"
      }
     },
     {
      "who": "efe",
-     "text": "Bugün çok şey öğrendim abla!",
-     "en": "I learned so much today, sister!",
+     "text": "Kırmızı, turuncu, sarı ve yeşil!",
+     "en": "Red, orange, yellow, and green!",
      "pose": {
       "efe": "happy"
      }
     },
     {
-     "who": "anlatici",
-     "text": "Güneş yavaşça batmaya başladı.",
-     "en": "The sun slowly began to set.",
-     "pose": {}
+     "who": "mina",
+     "text": "Her gün meyve ve sebze yemek çok sağlıklı.",
+     "en": "Eating fruits and vegetables every day is very healthy.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ve bizi çok mutlu eder!",
+     "en": "And it makes us very happy!",
+     "pose": {
+      "efe": "happy"
+     }
     },
     {
      "who": "mina",
-     "text": "Hadi Hasan Dede'ye hoşça kal diyelim.",
-     "en": "Let's say goodbye to Grandpa Hasan.",
+     "text": "Siz de her gün taze meyve yiyin arkadaşlar!",
+     "en": "You eat fresh fruit every day too, friends!",
      "pose": {
       "mina": "wave"
      }
@@ -1120,7 +1174,7 @@
    ]
   },
   {
-   "bg": "park_sunset",
+   "bg": "kitchen",
    "chars": {
     "mina": "left",
     "efe": "midleft",
@@ -1134,98 +1188,46 @@
    "lines": [
     {
      "who": "anlatici",
-     "text": "Gün batımında park çok güzel görünüyordu.",
-     "en": "The park looked so beautiful at sunset.",
+     "text": "Hasan Dede de mutfağa gelip çocuklara gülümsedi.",
+     "en": "Grandpa Hasan also came to the kitchen and smiled at the children.",
      "pose": {}
     },
     {
-     "who": "mina",
-     "text": "Hasan Dede, Efe bugün on'a kadar saymayı öğrendi!",
-     "en": "Grandpa Hasan, Efe learned to count to ten today!",
-     "pose": {
-      "mina": "wave"
-     }
-    },
-    {
      "who": "dede",
-     "text": "Tebrik ederim Efe! Sen harika bir çocuksun.",
-     "en": "Congratulations Efe! You are a wonderful child.",
+     "text": "Sağlıklı ve neşeli günler sizinle olsun minikler!",
+     "en": "May healthy and cheerful days be with you, little ones!",
      "pose": {
       "dede": "happy"
      }
     },
     {
      "who": "efe",
-     "text": "Teşekkür ederim Hasan Dede! Parmaklarımı saydım!",
-     "en": "Thank you Grandpa Hasan! I counted my fingers!",
+     "text": "Meyveler ve sebzeler bizim en iyi dostumuz!",
+     "en": "Fruits and vegetables are our best friends!",
      "pose": {
       "efe": "happy"
      }
     },
     {
+     "who": "mina",
+     "text": "Kendinize çok iyi bakın arkadaşlar!",
+     "en": "Take very good care of yourselves, friends!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
      "who": "dede",
-     "text": "Sayılar sizin en iyi arkadaşınız olsun.",
-     "en": "May numbers be your best friends.",
+     "text": "Hoşça kalın akıllı çocuklar!",
+     "en": "Goodbye smart children!",
      "pose": {
       "dede": "happy"
      }
     },
     {
      "who": "mina",
-     "text": "Her gün yeni şeyler öğrenmek çok güzel.",
-     "en": "It is so nice to learn new things every day.",
-     "pose": {
-      "mina": "talk"
-     }
-    }
-   ],
-   "cam": [
-    1.0,
-    1.04,
-    -0.02
-   ]
-  },
-  {
-   "bg": "park_sunset",
-   "chars": {
-    "mina": "left",
-    "efe": "midleft",
-    "dede": "right"
-   },
-   "start_pose": {
-    "mina": "happy",
-    "efe": "happy",
-    "dede": "happy"
-   },
-   "lines": [
-    {
-     "who": "mina",
-     "text": "Siz bugün kaç tane oyuncak sayacaksınız arkadaşlar?",
-     "en": "How many toys will you count today, friends?",
-     "pose": {
-      "mina": "talk"
-     }
-    },
-    {
-     "who": "efe",
-     "text": "Sayıları saymayı sevdiniz mi?",
-     "en": "Did you like counting numbers?",
-     "pose": {
-      "efe": "happy"
-     }
-    },
-    {
-     "who": "dede",
-     "text": "Sevgiyle ve neşeyle kalın güzel çocuklar.",
-     "en": "Stay with love and joy, wonderful children.",
-     "pose": {
-      "dede": "happy"
-     }
-    },
-    {
-     "who": "mina",
-     "text": "Bir sonraki maceramızda görüşmek üzere!",
-     "en": "See you in our next adventure!",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
      "pose": {
       "mina": "wave"
      }
@@ -1237,28 +1239,14 @@
      "pose": {
       "efe": "happy"
      }
-    },
-    {
-     "who": "dede",
-     "text": "Hoşça kalın!",
-     "en": "Goodbye!",
-     "pose": {
-      "dede": "happy"
-     }
-    },
-    {
-     "who": "anlatici",
-     "text": "Yeni maceralarda tekrar buluşmak dileğiyle!",
-     "en": "Hope to meet again in new adventures!",
-     "pose": {}
     }
    ],
    "cam": [
-    1.04,
     1.0,
+    1.04,
     -0.02
    ]
   }
  ],
- "topic": "1'den 10'a saymak"
+ "topic": "sebze ve meyve yemek"
 }
