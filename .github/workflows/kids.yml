@@ -1,8 +1,7 @@
 name: BoomBoo Video
 
 on:
-  schedule:
-    - cron: "47 13 * * *"   # her gun 1 Short: 16:47 Turkiye = ABD sabahi
+  # her gun 16:47 Turkiye: zamanlayici.yml baslatir (GitHub cron'u guvenilmez)
   workflow_dispatch:
     inputs:
       dry_run:
