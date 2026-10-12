@@ -1,0 +1,1264 @@
+{
+ "title_tr": "On'a Kadar Sayıyoruz",
+ "title_en": "Counting to Ten",
+ "cover_tr": "On'a Kadar Say!",
+ "cover_en": "Count to Ten!",
+ "cover_bg": "home_living",
+ "cover_poses": {
+  "mina": "happy",
+  "efe": "happy"
+ },
+ "description_tr": "Mina ve Efe, eğlenceli bir oyunla 1'den 10'a kadar saymayı öğreniyorlar. Hasan Dede'nin yardımıyla parmaklarını ve etraflarındaki nesneleri sayarak sayıların sırasını keşfediyorlar.",
+ "description_en": "Mina and Efe learn to count from 1 to 10 through a fun game. With Grandpa Hasan's help, they count their fingers and objects, discovering the order of numbers.",
+ "tags_tr": [
+  "okul öncesi",
+  "sayı sayma",
+  "1'den 10'a sayma",
+  "eğitici çizgi film",
+  "Mina ile Efe",
+  "çocuk dizisi",
+  "matematik",
+  "eğlenceli öğrenme",
+  "okul öncesi matematik",
+  "Türkçe çizgi film"
+ ],
+ "tags_en": [
+  "preschool",
+  "counting",
+  "count to 10",
+  "educational cartoon",
+  "Mina and Efe",
+  "kids show",
+  "math",
+  "fun learning",
+  "preschool math",
+  "turkish cartoon"
+ ],
+ "scenes": [
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneşli bir sabah Mina ve Efe evde oynuyorlar.",
+     "en": "On a sunny morning, Mina and Efe are playing at home.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Merhaba arkadaşlar! Bugün çok neşeli bir gün.",
+     "en": "Hello friends! Today is a very cheerful day.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Abla, renkli küplerimle kocaman bir kule yapıyorum!",
+     "en": "Sister, I am making a huge tower with my colorful blocks!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Harika Efe! Kaç tane küp koydun?",
+     "en": "Great Efe! How many blocks did you place?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, beş, on! Çok oldu!",
+     "en": "One, two, five, ten! It's a lot!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aaa! Bazı sayıları unuttun galiba Efe.",
+     "en": "Oh! I think you forgot some numbers, Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe sayıları sırayla saymayı henüz tam bilmiyor.",
+     "en": "Efe doesn't quite know how to count numbers in order yet.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Hadi küpleri baştan ve sırayla sayalım.",
+     "en": "Let's count the blocks from the beginning and in order.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tamam abla! Sen başla, ben takip edeyim.",
+     "en": "Okay sister! You start, I'll follow.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bak, bu birinci küp. Bir!",
+     "en": "Look, this is the first block. One!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir! Kırmızı küp!",
+     "en": "One! Red block!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi ikinciyi koyuyoruz. İki!",
+     "en": "Now we put the second one. Two!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "İki! Mavi küp!",
+     "en": "Two! Blue block!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Üçüncü küpü de ekledik. Üç!",
+     "en": "We also added the third block. Three!",
+     "pose": {
+      "mina": "point"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe bahçeye çıkıp saymaca oynamaya karar verdiler.",
+     "en": "Mina and Efe decided to go out to the garden and play a counting game.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bahçemizde lezzetli kırmızı çilekler var!",
+     "en": "There are delicious red strawberries in our garden!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çilekleri sayarak toplayalım mı abla?",
+     "en": "Shall we pick the strawberries by counting them, sister?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok iyi fikir! On tane çilek bulalım.",
+     "en": "Great idea! Let's find ten strawberries.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç çilek zaten biliyorduk!",
+     "en": "One, two, three strawberries we already knew!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi dördüncü çileği bulduk. Dört!",
+     "en": "Now we found the fourth strawberry. Four!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dört! Tatlı kırmızı çilek!",
+     "en": "Four! Sweet red strawberry!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "İşte burada bir çilek daha var. Beş!",
+     "en": "Here is another strawberry. Five!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Beş! Sepetimiz doluyor!",
+     "en": "Five! Our basket is filling up!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin sana Efe! Devam edelim.",
+     "en": "Well done Efe! Let me continue.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yaprağın altında bir tane daha var. Altı!",
+     "en": "There is another one under the leaf. Six!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Altı! Saymak ne kadar eğlenceliymiş!",
+     "en": "Six! Counting is so much fun!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar saydıkça daha çok eğleniyorlar.",
+     "en": "The children have more fun as they count.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Bak Efe, bu da yedinci çilek. Yedi!",
+     "en": "Look Efe, this is the seventh strawberry. Seven!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yedi! Çilekler ne kadar parlak!",
+     "en": "Seven! How bright the strawberries look!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hedefimiz on tane çilek bulmak.",
+     "en": "Our goal is to find ten strawberries.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Parka gidelim mi? Belki orada da sayarız!",
+     "en": "Shall we go to the park? Maybe we can count there too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet, parka gidip Hasan Dede'yi görelim!",
+     "en": "Yes, let's go to the park and see Grandpa Hasan!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar parkın yolunu tuttular.",
+     "en": "The children headed to the park.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Parkın neşeli yürüyüş yolında kozalaklar vardı.",
+     "en": "There were pinecones on the cheerful walking path of the park.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bak Efe, yerde küçük kozalaklar var!",
+     "en": "Look Efe, there are small pinecones on the ground!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Abla, kozalakları da sayalım mı?",
+     "en": "Sister, shall we count the pinecones too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Tabii ki! Yedi sayısı kalmıştı aklımızda.",
+     "en": "Of course! Number seven was in our minds.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yediden sonra ne geliyordu abla?",
+     "en": "What comes after seven, sister?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yediden sonra sekiz gelir. Sekiz!",
+     "en": "Eight comes after seven. Eight!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sekiz kozalak! Çok komik görünüyorlar.",
+     "en": "Eight pinecones! They look so funny.",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Şimdi bir kozalak daha ekliyoruz. Dokuz!",
+     "en": "Now we add one more pinecone. Nine!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dokuz! Neredeyse on olacak!",
+     "en": "Nine! It's almost ten!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "İşte son kozalak! On!",
+     "en": "Here is the last pinecone! Ten!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oley! Birden ona kadar saydık!",
+     "en": "Yay! We counted from one to ten!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe on sayısını öğrenince çok mutlu oldu.",
+     "en": "Efe was very happy when he learned the number ten.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hadi Hasan Dede'ye gösterelim!",
+     "en": "Let's show Grandpa Hasan!",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Abla, ama ben hepsini unutmaktan korkuyorum.",
+     "en": "Sister, but I'm afraid of forgetting them all.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Korkma Efe, pratik yaptıkça öğreneceksin.",
+     "en": "Don't worry Efe, you will learn as we practice.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sayılar sırayla birer birer büyür.",
+     "en": "Numbers grow one by one in order.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sırayla saymak çok kolaymış!",
+     "en": "Counting in order is so easy!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Mina kardeşine sevgiyle destek oluyor.",
+     "en": "Mina lovingly supports her brother.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bak, çınar ağacının altında Hasan Dede duruyor!",
+     "en": "Look, Grandpa Hasan is standing under the plane tree!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Hoş geldiniz güzel çocuklar! Ne yapıyorsunuz?",
+     "en": "Welcome lovely children! What are you doing?",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Merhaba Hasan Dede! Bugün on'a kadar saymayı öğreniyoruz.",
+     "en": "Hello Grandpa Hasan! Today we are learning to count up to ten.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hasan Dede, ben sekiz ve dokuzu öğrendim!",
+     "en": "Grandpa Hasan, I learned eight and nine!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Aferin sana Efe! Sayılar hayatı çok kolaylaştırır.",
+     "en": "Well done Efe! Numbers make life so much easier.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Hasan Dede çocuklara sevgiyle gülümsedi.",
+     "en": "Grandpa Hasan smiled lovingly at the children.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Sayıları hiç unutmamak için bir ipucu var mı?",
+     "en": "Is there a tip to never forget the numbers?",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Elbette var! En güzel sayma aracı ellerimizdir.",
+     "en": "Of course there is! Our hands are the best counting tool.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ellerimiz mi? Nasıl yani?",
+     "en": "Our hands? What do you mean?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "İki elimizde toplam on tane parmak var!",
+     "en": "We have ten fingers in total on both hands!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aaa evet! Parmaklarımızı sayabiliriz!",
+     "en": "Oh yes! We can count our fingers!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi parmaklarımızı sayalım Hasan Dede!",
+     "en": "Let's count our fingers Grandpa Hasan!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Hasan Dede ellerini çocuklara doğru açtı.",
+     "en": "Grandpa Hasan opened his hands toward the children.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Bir, iki, üç, dört, beş! Bir elde beş parmak!",
+     "en": "One, two, three, four, five! Five fingers on one hand!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Altı, yedi, sekiz, dokuz, on! İki elde on parmak!",
+     "en": "Six, seven, eight, nine, ten! Ten fingers on two hands!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Parmaklarım her zaman yanımda! Hiç unutmam!",
+     "en": "My fingers are always with me! I will never forget!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "İşte bu harika bir keşif oldu Efe.",
+     "en": "That turned out to be a wonderful discovery, Efe.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Teşekkür ederiz Hasan Dede!",
+     "en": "Thank you, Grandpa Hasan!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar sevinçle oyun parkına koştular.",
+     "en": "The children happily ran to the playground.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Oyun parkında kaydırağa doğru adımları sayacaklar.",
+     "en": "In the playground, they will count steps toward the slide.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Efe, kaydırağa kadar kaç adım atacağız?",
+     "en": "Efe, how many steps will we take to the slide?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "On adımda varabilir miyiz abla?",
+     "en": "Can we reach it in ten steps, sister?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hadi birlikte adımlarımızı sayalım!",
+     "en": "Let's count our steps together!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç, dört!",
+     "en": "One, two, three, four!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Beş, altı, yedi, sekiz!",
+     "en": "Five, six, seven, eight!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dokuz ve on! Kaydırağa geldik!",
+     "en": "Nine and ten! We made it to the slide!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Harika saydın Efe! Bütün sayıları doğru bildin.",
+     "en": "Great counting Efe! You got all the numbers right.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sayılar birbirinin arkadaşı gibi!",
+     "en": "Numbers are like friends to each other!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe artık sayıları sırayla sayabiliyor.",
+     "en": "Efe can now count numbers in order.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hadi piknik örtümüze gidip dinlenelim.",
+     "en": "Let's go to our picnic blanket and rest.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Orada da meyveleri sayalım mı?",
+     "en": "Shall we count fruits there too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Elbette, harika bir fikir!",
+     "en": "Of course, great idea!",
+     "pose": {
+      "mina": "point"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "picnic",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Yeşil çimlerde piknik örtüsünü serdiler.",
+     "en": "They spread the picnic blanket on the green grass.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Tabağımıza on tane üzüm koyalım.",
+     "en": "Let's put ten grapes on our plate.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben tek tek sayarak koyacağım abla.",
+     "en": "I will put them one by one by counting, sister.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç, dört, beş!",
+     "en": "One, two, three, four, five!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çok güzel! Devam et Efe.",
+     "en": "Very good! Continue Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Altı, yedi, sekiz, dokuz, on!",
+     "en": "Six, seven, eight, nine, ten!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Aferin sana! Tam on tane tatlı üzüm!",
+     "en": "Well done! Exactly ten sweet grapes!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "picnic",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe ekran başındaki arkadaşlarına dönüyor.",
+     "en": "Mina and Efe turn to their friends watching.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Sevgili arkadaşlar, siz de bizimle saydınız mı?",
+     "en": "Dear friends, did you count with us too?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hadi hep birlikte 1'den 10'a kadar sayalım!",
+     "en": "Let's all count together from 1 to 10!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hazır mısınız? Başlıyoruz!",
+     "en": "Are you ready? Here we go!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç, dört, beş!",
+     "en": "One, two, three, four, five!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Altı, yedi, sekiz, dokuz, on!",
+     "en": "Six, seven, eight, nine, ten!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Hep birlikte saymak ne kadar neşeli!",
+     "en": "How joyful it is to count all together!",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "picnic",
+   "chars": {
+    "mina": "left",
+    "efe": "midright"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Siz de evdeki oyuncaklarınızı on'a kadar sayabilirsiniz.",
+     "en": "You can count your toys at home up to ten too.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Parmaklarınızı saymayı unutmayın!",
+     "en": "Don't forget to count your fingers!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Sayıları sırayla saymak çok kolay ve zevkli.",
+     "en": "Counting numbers in order is very easy and fun.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bugün çok şey öğrendim abla!",
+     "en": "I learned so much today, sister!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Güneş yavaşça batmaya başladı.",
+     "en": "The sun slowly began to set.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hadi Hasan Dede'ye hoşça kal diyelim.",
+     "en": "Let's say goodbye to Grandpa Hasan.",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_sunset",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Gün batımında park çok güzel görünüyordu.",
+     "en": "The park looked so beautiful at sunset.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede, Efe bugün on'a kadar saymayı öğrendi!",
+     "en": "Grandpa Hasan, Efe learned to count to ten today!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Tebrik ederim Efe! Sen harika bir çocuksun.",
+     "en": "Congratulations Efe! You are a wonderful child.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Teşekkür ederim Hasan Dede! Parmaklarımı saydım!",
+     "en": "Thank you Grandpa Hasan! I counted my fingers!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Sayılar sizin en iyi arkadaşınız olsun.",
+     "en": "May numbers be your best friends.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Her gün yeni şeyler öğrenmek çok güzel.",
+     "en": "It is so nice to learn new things every day.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_sunset",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Siz bugün kaç tane oyuncak sayacaksınız arkadaşlar?",
+     "en": "How many toys will you count today, friends?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sayıları saymayı sevdiniz mi?",
+     "en": "Did you like counting numbers?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Sevgiyle ve neşeyle kalın güzel çocuklar.",
+     "en": "Stay with love and joy, wonderful children.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bir sonraki maceramızda görüşmek üzere!",
+     "en": "See you in our next adventure!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Hoşça kalın!",
+     "en": "Goodbye!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Yeni maceralarda tekrar buluşmak dileğiyle!",
+     "en": "Hope to meet again in new adventures!",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  }
+ ],
+ "topic": "1'den 10'a saymak"
+}
