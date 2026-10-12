@@ -1,0 +1,86 @@
+name: Zamanlayici
+
+# GitHub'in kendi saat ayari (cron) cogu zaman calismiyor.
+# Bu is kendi kendini zincirleme baslatir: siradaki saate kadar bekler, o saatin videosunu baslatir,
+# sonra kendini yeniden baslatir.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "41 */6 * * *"   # zincir koparsa yeniden kurar
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: zamanlayici
+  cancel-in-progress: true
+
+jobs:
+  bekle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Siradaki video saatini bekle ve baslat
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import datetime as d, json, os, time, urllib.request
+          # Turkiye saati -> baslatilacak is (ABD sabahina denk gelir)
+          SLOTS = [(16, 17, "cizgi.yml", {"dry_run": "0"}),
+                   (16, 47, "kids.yml", {"dry_run": "0", "topic": ""})]
+          LATE = 45
+          MAXW = 5 * 3600 + 20 * 60
+          TR = d.timezone(d.timedelta(hours=3))
+          API = "https://api.github.com/repos/" + os.environ["REPO"]
+          H = {"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Accept": "application/vnd.github+json"}
+
+          def call(path, body=None):
+              req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body is not None else None,
+                                           method="POST" if body is not None else "GET", headers=H)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  t = r.read()
+                  return json.loads(t) if t else {}
+
+          def recent(wf):
+              runs = call(f"/actions/workflows/{wf}/runs?per_page=5")["workflow_runs"]
+              now = d.datetime.now(d.timezone.utc)
+              for r in runs:
+                  age = (now - d.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00"))).total_seconds() / 60
+                  if age < 180 and (r["status"] != "completed" or r["event"] == "workflow_dispatch"):
+                      return True
+              return False
+
+          def target(now):
+              c = []
+              for add in (0, 1):
+                  day = (now + d.timedelta(days=add)).date()
+                  for h, m, wf, inp in SLOTS:
+                      c.append((d.datetime(day.year, day.month, day.day, h, m, tzinfo=TR), wf, inp))
+              for x in sorted(c, key=lambda x: x[0]):
+                  if x[0] <= now - d.timedelta(minutes=LATE):
+                      continue
+                  if x[0] <= now and recent(x[1]):
+                      continue   # bu saatin isi zaten baslatilmis
+                  return x
+
+          now = d.datetime.now(TR)
+          t, wf, inp = target(now)
+          wait = (t - now).total_seconds()
+          print("simdi", now.strftime("%d.%m %H:%M"), "| siradaki", wf, t.strftime("%d.%m %H:%M"), "| bekleme dk", int(max(wait, 0) // 60), flush=True)
+          if wait > MAXW:
+              time.sleep(MAXW)
+          else:
+              if wait > 0:
+                  time.sleep(wait)
+              if recent(wf):
+                  print(wf, "son 3 saatte zaten baslatilmis, atlandi")
+              else:
+                  call(f"/actions/workflows/{wf}/dispatches", {"ref": "main", "inputs": inp})
+                  print(wf, "baslatildi", flush=True)
+                  time.sleep(30)
+          call("/actions/workflows/zamanlayici.yml/dispatches", {"ref": "main"})
+          print("zincir devam ediyor")
+          PY
