@@ -29,7 +29,7 @@ jobs:
       - name: Kurulum
         run: |
           command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-          pip install -q numpy pillow edge-tts fonttools
+          pip install -q numpy pillow edge-tts fonttools piper-tts
           TK=https://raw.githubusercontent.com/Heyet01/tarihin-karanligi-video/main
           mkdir -p tk/tools tk/assets tk/cizgi
           for f in tools/cizgi_bolum.py tools/cizgi_gunluk.py cizgi/sahneler.json cizgi/choice.json; do curl -fsSL --retry 5 -o "tk/$f" "$TK/$f"; done
@@ -49,7 +49,8 @@ jobs:
           CIZGI_DRY: ${{ inputs.dry_run || '0' }}
           CIZGI_LANGS: "en"   # sadece BoomBooKidsTV (Turkce kanal kaldirildi)
           CIZGI_CRF: "23"
-        run: python tk/tools/cizgi_gunluk.py /tmp/lib out_cizgi cizgi_history.json
+        # voicefix_en: Microsoft sesi engellenirse bedava Piper sesleriyle devam eder
+        run: python -c "import sys, runpy; sys.path.insert(0, 'tk/tools'); sys.argv=['tk/tools/cizgi_gunluk.py', '/tmp/lib', 'out_cizgi', 'cizgi_history.json']; import cizgi_bolum, voicefix_en; voicefix_en.install(cizgi_bolum, 'say'); runpy.run_path('tk/tools/cizgi_gunluk.py', run_name='__main__')"
       - name: Kaydet
         if: always()
         run: |
