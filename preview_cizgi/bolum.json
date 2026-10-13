@@ -1,0 +1,1166 @@
+{
+ "title_tr": "Sihirli İki Sözcük",
+ "title_en": "Two Magic Words",
+ "cover_tr": "Sihirli Kelimeler",
+ "cover_en": "Magic Words",
+ "cover_bg": "park_tree",
+ "cover_poses": {
+  "mina": "wave",
+  "efe": "happy"
+ },
+ "description_tr": "Mina ve Efe, gün boyunca 'lütfen' ve 'teşekkür ederim' demenin güzelliğini keşfediyor. Nezaket dolu bu tatlı macera, çocuklara sihirli sözcüklerin önemini öğretiyor.",
+ "description_en": "Mina and Efe discover the joy of saying 'please' and 'thank you' throughout their day. This sweet adventure teaches children the value of polite words.",
+ "tags_tr": [
+  "lütfen demek",
+  "teşekkür etmek",
+  "nezaket",
+  "görgü kuralları",
+  "okul öncesi",
+  "çizgi dizi",
+  "mina ile efe",
+  "kardeş sevgisi",
+  "paylaşmak",
+  "değerler eğitimi"
+ ],
+ "tags_en": [
+  "saying please",
+  "saying thank you",
+  "politeness",
+  "good manners",
+  "preschool",
+  "cartoon",
+  "mina and efe",
+  "kindness",
+  "sharing",
+  "values education"
+ ],
+ "scenes": [
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneşli ve neşeli bir sabah başlıyor.",
+     "en": "A sunny and cheerful morning begins.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Günaydın Efe! Bugün harika bir gün olacak.",
+     "en": "Good morning, Efe! Today will be a wonderful day.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Günaydın Mina abla! Hadi hemen oyun oynayalım.",
+     "en": "Good morning, big sister Mina! Let's play right now.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Önce odamızı toplayalım, sonra boyama yaparız.",
+     "en": "First let's tidy our room, then we can color.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı boya kalemimi bana ver!",
+     "en": "Give me my red crayon!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Efe, bir şey isterken ne diyorduk?",
+     "en": "Efe, what do we say when we ask for something?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Aklıma gelmedi, ne diyorduk abla?",
+     "en": "I can't remember, what did we say, sister?",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Sihirli bir sözcük vardı hani: Lütfen!",
+     "en": "There was a magic word, remember: Please!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı boyayı verir misin lütfen?",
+     "en": "Could you give me the red crayon, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "İşte boya kalemin burada, al bakalım!",
+     "en": "Here is your crayon, here you go!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çok teşekkür ederim abla!",
+     "en": "Thank you so much, sister!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Rica ederim tatlı kardeşim.",
+     "en": "You are welcome, sweet brother.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Sihirli sözcükler yüzleri hemen güldürür.",
+     "en": "Magic words bring an instant smile to faces.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Karnım da biraz acıktı sanki!",
+     "en": "I think my tummy is getting a bit hungry!",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Masada elma ve süt var.",
+     "en": "There are apples and milk on the table.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bana süt ver!",
+     "en": "Give me milk!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Efe, az önce ne öğrenmiştik?",
+     "en": "Efe, what did we just learn?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hatırladım! Sütü uzatır mısın lütfen?",
+     "en": "I remembered! Could you pass the milk, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Elbette, afiyet olsun Efe.",
+     "en": "Of course, enjoy it, Efe.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Teşekkür ederim Mina abla!",
+     "en": "Thank you, big sister Mina!",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Lütfen demek kalpleri sıcacık yapar.",
+     "en": "Saying please warms everyone's heart.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Kırmızı elmadan da ister misin?",
+     "en": "Would you like a red apple too?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet, bir dilim verir misin lütfen?",
+     "en": "Yes, could you give me a slice, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Aferin sana, işte tatlı elman!",
+     "en": "Well done, here is your sweet apple!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çok teşekkür ederim!",
+     "en": "Thank you very much!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Her zaman rica ederim canım kardeşim.",
+     "en": "You are always welcome, my dear brother.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Sihirli kelimeleri söylemek çok eğlenceliymiş.",
+     "en": "Saying magic words is so much fun.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi bahçedeki çiçekleri sulayalım mı?",
+     "en": "Shall we water the flowers in the garden now?",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "kitchen",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Evet, çiçekleri sulamayı çok seviyorum!",
+     "en": "Yes, I love watering the flowers!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Sarı sulama kabını tezgâhtan alalım.",
+     "en": "Let's take the yellow watering can from the counter.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben yetişemiyorum, bana verir misin lütfen?",
+     "en": "I can't reach, could you give it to me, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Tabii ki veririm, al bakalım.",
+     "en": "Of course I will, here you go.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Teşekkürler ablacığım!",
+     "en": "Thanks, dear sister!",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Efe sihirli sözcükleri çok çabuk öğrendi.",
+     "en": "Efe learned the magic words very quickly.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hadi bahçeye çıkalım!",
+     "en": "Let's go outside to the garden!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Bak, sarı papatyalar ne kadar güzel!",
+     "en": "Look, how beautiful the yellow daisies are!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Onlara bol bol su verelim.",
+     "en": "Let's give them lots of water.",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Çiçekler serin suyla ferahlıyor.",
+     "en": "The flowers feel refreshed with cool water.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Mina abla, hortumu bana tutar mısın lütfen?",
+     "en": "Sister Mina, could you hold the hose for me, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Memnuniyetle tutarım Efe.",
+     "en": "Gladly, Efe.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çiçekler de bize teşekkür ediyor gibi!",
+     "en": "It looks like the flowers are thanking us too!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Evet, yapraklarını sallayarak gülümsüyorlar.",
+     "en": "Yes, they smile by swaying their leaves.",
+     "pose": {
+      "mina": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Ben bahçede koşmak istiyorum!",
+     "en": "I want to run in the garden!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Dikkat et, çimenler biraz ıslak.",
+     "en": "Be careful, the grass is a bit wet.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Abla, şapkam düştü, alır mısın lütfen?",
+     "en": "Sister, my hat fell, could you pick it up, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hemen alıyorum, işte şapkan!",
+     "en": "I'll get it right away, here's your hat!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çok teşekkür ederim ablacığım.",
+     "en": "Thank you very much, dear sister.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Rica ederim, nezaketin beni çok mutlu etti.",
+     "en": "You're welcome, your kindness made me so happy.",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Nezaket sözcükleri kardeşleri birbirine bağlar.",
+     "en": "Polite words bring siblings closer together.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Hasan Dede bugün parkta laleleri suluyor.",
+     "en": "Grandpa Hasan is watering tulips in the park today.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ona da yardım edelim mi?",
+     "en": "Shall we help him too?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Harika bir fikir, çok sevinir!",
+     "en": "Wonderful idea, he would be delighted!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Park kapısını açar mısın lütfen?",
+     "en": "Could you open the park gate, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Açıyorum, el ele tutuşup yürüyelim.",
+     "en": "Opening it, let's hold hands and walk.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Teşekkür ederim, elimi hiç bırakma.",
+     "en": "Thank you, don't let go of my hand.",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar el ele parka doğru yürüyor.",
+     "en": "Hand in hand, the children walk toward the park.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_wide",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Merhaba Hasan Dede!",
+     "en": "Hello, Grandpa Hasan!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kolay gelsin Hasan Dede!",
+     "en": "May it be easy, Grandpa Hasan!",
+     "pose": {}
+    },
+    {
+     "who": "dede",
+     "text": "Hoş geldiniz güzel yavrularım, nasılsınız?",
+     "en": "Welcome, my lovely children, how are you?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Çok iyiyiz, sana yardım etmek istedik.",
+     "en": "We're great, we wanted to help you.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Ne kadar düşüncelisiniz, çok teşekkür ederim.",
+     "en": "How thoughtful you are, thank you very much.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Rica ederiz dedeciğim!",
+     "en": "You're welcome, dear grandpa!",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Hasan Dede çocukların neşesine gülümsedi.",
+     "en": "Grandpa Hasan smiled at the children's cheerfulness.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_wide",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Kovayı çeşmeden doldurabilir misiniz lütfen?",
+     "en": "Could you fill the bucket from the fountain, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hemen doldururuz Hasan Dede!",
+     "en": "We'll fill it right away, Grandpa Hasan!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben de musluğu açarım!",
+     "en": "I can turn on the tap too!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "İşte kova suyla doldu.",
+     "en": "Here, the bucket is full of water.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Zahmet ettiniz, ellerinize sağlık yavrularım.",
+     "en": "Thank you for your trouble, well done, my children.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bir şey değil dedeciğim!",
+     "en": "It's nothing, dear grandpa!",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Birlikte çalışmak işleri ne kadar kolaylaştırıyor.",
+     "en": "Working together makes tasks so much easier.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_wide",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Lütfen ve teşekkür kelimeleri anahtar gibidir.",
+     "en": "Please and thank you are just like keys.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Neyin anahtarı Hasan Dede?",
+     "en": "Keys to what, Grandpa Hasan?",
+     "pose": {}
+    },
+    {
+     "who": "dede",
+     "text": "Gönüllerin ve dostluk kapılarının anahtarıdır.",
+     "en": "They are keys to hearts and doors of friendship.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Doğru, bu sözleri duyunca herkes mutlu oluyor.",
+     "en": "True, everyone feels happy hearing these words.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben o sihirli anahtarları çok sevdim!",
+     "en": "I really love those magic keys!",
+     "pose": {}
+    },
+    {
+     "who": "dede",
+     "text": "Şimdi parkta oyun oynayabilirsiniz çocuklar.",
+     "en": "Now you can play in the park, children.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Teşekkürler Hasan Dede, görüşmek üzere!",
+     "en": "Thank you Grandpa Hasan, see you soon!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Salıncağa ben binmek istiyorum!",
+     "en": "I want to ride the swing!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Beni sallar mısın lütfen demelisin.",
+     "en": "You should say, could you swing me please.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Beni biraz sallar mısın lütfen?",
+     "en": "Could you swing me a little, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Tabii ki sallarım, sıkı tutun!",
+     "en": "Of course I will swing you, hold on tight!",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Rüzgâr gibi uçuyorum, teşekkürler abla!",
+     "en": "I'm flying like the wind, thanks sister!",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Salıncak gökyüzüne doğru neşeyle yükseliyor.",
+     "en": "The swing rises cheerfully toward the sky.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Şimdi sıra bende mi acaba?",
+     "en": "Is it my turn now, I wonder?",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Evet abla, şimdi sen bin salıncağa.",
+     "en": "Yes sister, now you get on the swing.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Sıranı paylaştığın için çok teşekkür ederim.",
+     "en": "Thank you so much for sharing your turn.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Rica ederim, ben de seni iterim!",
+     "en": "You're welcome, I'll push you too!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hafifçe it lütfen Efe.",
+     "en": "Push gently please, Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Tamam, yavaşça itiyorum.",
+     "en": "Okay, pushing slowly.",
+     "pose": {}
+    },
+    {
+     "who": "anlatici",
+     "text": "Sırayla oynamak ve nezaket göstermek harikadır.",
+     "en": "Taking turns and showing kindness is wonderful.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Kaydırağa da gidelim mi?",
+     "en": "Shall we go to the slide too?",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "playground",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Kaydıraktan kayarken sıramı bekleyeceğim.",
+     "en": "I'll wait for my turn when using the slide.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Önce sen kaymak ister misin?",
+     "en": "Would you like to slide first?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet, izin verir misin lütfen?",
+     "en": "Yes, could you permit me, please?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Elbette kayabilirsin, yol senin!",
+     "en": "Of course you can slide, the way is yours!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Huuu! Çok eğlenceliydi, teşekkür ederim abla!",
+     "en": "Wheee! That was so fun, thank you sister!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Rica ederim tatlı kardeşim.",
+     "en": "You're welcome, sweet brother.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Nezaketle oynanan oyunlar her zaman daha güzeldir.",
+     "en": "Games played with kindness are always better.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Yoruldunuz mu bakalım küçük afacanlar?",
+     "en": "Are you tired now, little rascals?",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Birazcık yorulduk ama çok eğlendik.",
+     "en": "A little bit tired, but we had so much fun.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Ağacın gölgesinde oturabilir miyiz lütfen?",
+     "en": "May we sit in the tree's shade, please?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Tabii ki, gelin yanıma oturun.",
+     "en": "Of course, come sit next to me.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Bize masal anlatır mısın Hasan Dede?",
+     "en": "Will you tell us a story, Grandpa Hasan?",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Lütfen demeyi unuttun mu Efe?",
+     "en": "Did you forget to say please, Efe?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Pardon! Masal anlatır mısın lütfen dedeciğim?",
+     "en": "Sorry! Would you tell a story, please, dear grandpa?",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Böyle güzel rica edene masal anlatılmaz mı hiç!",
+     "en": "How could I not tell a story to someone asking so nicely!",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Çok teşekkürler dede, seni çok seviyoruz.",
+     "en": "Thanks so much, grandpa, we love you so much.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Lütfen demek işleri ne kadar kolaylaştırıyor.",
+     "en": "Saying please makes things so much easier.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Gülümsemek ve teşekkür etmek sevgi köprüsüdür.",
+     "en": "Smiling and thanking build bridges of love.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Ben her gün bu kelimeleri söyleyeceğim.",
+     "en": "I will say these words every day.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Ben de seninle gurur duyuyorum Efe.",
+     "en": "I'm so proud of you too, Efe.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Yaşlı çınarın altında neşeli sohbet devam etti.",
+     "en": "The cheerful chat continued under the old plane tree.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Eve döndük ve harika şeyler öğrendik.",
+     "en": "We came back home and learned wonderful things.",
+     "pose": {
+      "mina": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Lütfen demek ve teşekkür etmek çok kolay!",
+     "en": "Saying please and thank you is so easy!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Siz de evde sihirli sözcükleri kullanıyor musunuz?",
+     "en": "Do you also use magic words at home?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir şey isterken lütfen demeyi unutmayın!",
+     "en": "Don't forget to say please when asking for something!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bizi dinlediğiniz için çok teşekkür ederiz.",
+     "en": "Thank you so much for listening to us.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye, friends!",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hoşça kalın arkadaşlar, sevgiyle kalın!",
+     "en": "Goodbye friends, stay with love!",
+     "pose": {
+      "mina": "wave"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  }
+ ],
+ "topic": "teşekkür etmek ve lütfen demek"
+}
