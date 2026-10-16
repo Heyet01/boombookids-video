@@ -1,0 +1,1244 @@
+{
+ "title_tr": "Oyuncaklar Evine Dönüyor",
+ "title_en": "Toys Go Home",
+ "cover_tr": "Haydi Toplayalım!",
+ "cover_en": "Let's Clean Up!",
+ "cover_bg": "kids_bedroom",
+ "cover_poses": {
+  "mina": "point",
+  "efe": "happy"
+ },
+ "description_tr": "Mina ve Efe oyun oynadıktan sonra etrafa saçılan oyuncakları toplamanın eğlenceli bir yolunu keşfediyor. Hasan Dede'nin bilgece önerisiyle oyuncakları sınıflandırıp düzenli olmanın ve güvenli bir ortam oluşturmanın önemini öğreniyorlar.",
+ "description_en": "Mina and Efe discover a fun way to tidy up their scattered toys after playtime. With Grandpa Hasan's wise advice, they learn the value of sorting toys, staying organized, and keeping their room safe.",
+ "tags_tr": [
+  "oyuncak toplama",
+  "düzenli olma",
+  "sorumluluk",
+  "oda temizliği",
+  "okul öncesi",
+  "çizgi dizi",
+  "eğitici",
+  "yardımlaşma",
+  "sayı sayma",
+  "çocuk gelişimi"
+ ],
+ "tags_en": [
+  "cleaning up",
+  "tidying toys",
+  "responsibility",
+  "organization",
+  "preschool",
+  "cartoons",
+  "educational",
+  "teamwork",
+  "counting",
+  "child development"
+ ],
+ "scenes": [
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Güneşli bir sabahta Mina ve Efe odalarında oynuyordu.",
+     "en": "On a sunny morning, Mina and Efe were playing in their bedroom.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Merhaba arkadaşlar! Bugün kocaman bir kule yapıyoruz!",
+     "en": "Hello friends! Today we are building a giant tower!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet! Benim arabalarım da köprüden geçecek!",
+     "en": "Yes! And my cars will drive over the bridge!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bak Efe, kırmızı blokları en üste koyalım.",
+     "en": "Look Efe, let's put the red blocks on top.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Renkli bloklar harika görünüyor abla!",
+     "en": "The colorful blocks look amazing, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Her yere oyuncak koyduk, oda biraz dağıldı sanki.",
+     "en": "We put toys everywhere, the room seems a bit messy.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ama oynamak çok eğlenceli Mina!",
+     "en": "But playing is so much fun, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Efe kuleye yeni bir blok daha eklemek istedi.",
+     "en": "Efe wanted to add one more block to the tower.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Dikkat, en büyük mavi bloğu koyuyorum!",
+     "en": "Watch out, I am putting the biggest blue block!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Dikkat et Efe, kule biraz sallanıyor!",
+     "en": "Be careful Efe, the tower is wobbling a bit!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Güm! Kule devrildi, bloklar her yere saçıldı!",
+     "en": "Boom! The tower fell, blocks scattered everywhere!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Her yer rengârenk blok oldu Efe.",
+     "en": "Blocks of every color are everywhere, Efe.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Şimdi de arabalarımı yarıştırmak istiyorum!",
+     "en": "Now I want to race my cars!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ama önce yerdeki bloklara dikkat etmeliyiz.",
+     "en": "But first, we must watch out for blocks on the floor.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuklar oyuncaklarını alıp oturma odasına koştular.",
+     "en": "The children grabbed their toys and ran to the living room.",
+     "pose": {}
+    },
+    {
+     "who": "efe",
+     "text": "Vın vın! Yarış arabam salonda çok hızlı gidiyor!",
+     "en": "Vroom vroom! My race car is super fast in the living room!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Pelüş ayıcığı da koltuğun yanına getirdim.",
+     "en": "I brought the teddy bear beside the sofa, too.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çiftlik hayvanları da halının üzerinde otlasın!",
+     "en": "Let the farm animals graze on the carpet too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Efe, salondaki halı tamamen oyuncakla doldu.",
+     "en": "Efe, the living room rug is completely filled with toys.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bütün oyuncaklarımız bizimle oynuyor abla!",
+     "en": "All our toys are playing with us, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Birazdan parka gideceğiz, hazırlanmamız gerek.",
+     "en": "We will go to the park soon, we must get ready.",
+     "pose": {
+      "mina": "talk"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Yaşasın, park zamanı! Parka gitmeyi çok seviyorum!",
+     "en": "Yay, park time! I love going to the park!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Efe dikkat et, yerdeki trene basma!",
+     "en": "Efe watch out, do not step on the toy train!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ay, az kalsın kayıyordum! Neredeyse düşecektim.",
+     "en": "Oops, I almost slipped! I nearly fell down.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Yerdeki oyuncaklar varken yürümek çok zor.",
+     "en": "Walking is very hard when toys are all over the floor.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yeşil dinozorum nerede? Onu parka götürecektim!",
+     "en": "Where is my green dinosaur? I was going to take it to the park!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bu kalabalıkta dinozoru bulmak hiç kolay değil.",
+     "en": "Finding the dinosaur in this mess is not easy at all.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dinozorum kaybolmuş! Bulamıyorum abla!",
+     "en": "My dinosaur is lost! I cannot find it, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe bahçeye çıktılar.",
+     "en": "Mina and Efe stepped out into the garden.",
+     "pose": {}
+    },
+    {
+     "who": "dede",
+     "text": "Günaydın güzel çocuklar! Nereye böyle telaşla?",
+     "en": "Good morning lovely kids! Where are you going in such a rush?",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede, Efe'nin dinozoru odada kayboldu.",
+     "en": "Grandpa Hasan, Efe's dinosaur is lost in the room.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Odada o kadar çok oyuncak var ki bulamıyorum!",
+     "en": "There are so many toys in the room that I can't find it!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Demek oyuncaklar yerlerde dinleniyor, öyle mi?",
+     "en": "So the toys are resting on the floor, is that right?",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Evet Hasan Dede, her yer oyuncakla doldu.",
+     "en": "Yes Grandpa Hasan, everywhere is filled with toys.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Bakın ben bahçe aletlerimi ne yapıyorum çocuklar?",
+     "en": "Look what I do with my garden tools, children.",
+     "pose": {
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Tırmığı ve sulama kabını kutusuna koyuyorum.",
+     "en": "I put the rake and watering can into their shed.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Neden kutusuna koyuyorsun Hasan Dede?",
+     "en": "Why do you put them in their shed, Grandpa Hasan?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Çünkü her eşyanın kendine ait bir evi vardır.",
+     "en": "Because every item has a home of its own.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Eşyaların evi mi var? Ne kadar güzel!",
+     "en": "Things have a home? How wonderful!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Evet, evine giden eşyayı bulmak her zaman kolaydır.",
+     "en": "Yes, an item that goes home is always easy to find.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hem de ayağımıza takılıp bizi düşürmezler!",
+     "en": "And they won't trip us or make us fall!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Oyuncaklarımızın da bir evi olmalı değil mi?",
+     "en": "Our toys should have a home too, shouldn't they?",
+     "pose": {
+      "mina": "point"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_path",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Birlikte park yolunda neşeyle yürümeye başladılar.",
+     "en": "Together they began to walk cheerfully along the park path.",
+     "pose": {}
+    },
+    {
+     "who": "dede",
+     "text": "Kuşlar yuvalarına uçar, arılar kovanlarına döner.",
+     "en": "Birds fly to their nests, bees return to their hives.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oyuncaklar da kutularına mı döner?",
+     "en": "Do toys return to their boxes too?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Tabii ki Efe, oyuncak kutuları onların yuvası!",
+     "en": "Of course Efe, toy boxes are their homes!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Çok doğru Mina! Oyuncaklar da dinlenmeyi sever.",
+     "en": "Very true Mina! Toys like to rest too.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dinozorum da yuvasını özlemiş midir Hasan Dede?",
+     "en": "Did my dinosaur miss its home too, Grandpa Hasan?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Özlemiştir elbet, kutusunda güvenle bekler.",
+     "en": "Surely it did, it waits safely in its box.",
+     "pose": {
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Kocaman yaşlı çınar ağacının altına oturdular.",
+     "en": "They sat under the big old plane tree.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede, oyuncakları toplamak bazen çok zor geliyor.",
+     "en": "Grandpa Hasan, cleaning up toys sometimes feels very hard.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Toplamayı eğlenceli bir oyuna dönüştürebilirsiniz çocuklar!",
+     "en": "You can turn cleaning up into a fun game, children!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oyun mu? Nasıl bir oyun Hasan Dede?",
+     "en": "A game? What kind of game, Grandpa Hasan?",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Mesela bir Oyuncak Treni olabilirsiniz!",
+     "en": "For example, you could be a Toy Train!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Çuf çuf! Oyuncakları toplayan bir tren mi?",
+     "en": "Choo choo! A train that collects toys?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Evet! Her vagon farklı bir oyuncağı taşır.",
+     "en": "Yes! Each wagon carries a different toy.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben tren makinisti olmak istiyorum!",
+     "en": "I want to be the train driver!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_tree",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "happy",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "dede",
+     "text": "Hadi bakalım makinistle şef, eve dönüp deneyin!",
+     "en": "Off you go, driver and conductor, go home and try!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Teşekkür ederiz Hasan Dede, hemen deneyeceğiz!",
+     "en": "Thank you Grandpa Hasan, we will try it right away!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Dinozorumu bulup yuvasına koyacağım!",
+     "en": "I will find my dinosaur and put it in its home!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Size kolay gelsin küçük kahramanlar!",
+     "en": "Good luck, my little heroes!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar heyecanla evlerine doğru yola koyuldular.",
+     "en": "The children excitedly headed back to their home.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Efe, ilk önce salondaki oyuncakları toplayalım.",
+     "en": "Efe, let's pick up the toys in the living room first.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çuf çuf tren hemen yola çıkıyor abla!",
+     "en": "The choo-choo train is setting off right away, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "point",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Mina ve Efe oturma odasına geri geldiler.",
+     "en": "Mina and Efe came back to the living room.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "İşte ilk istasyon! Salondaki renkli arabalar!",
+     "en": "Here is the first station! Colorful cars in the living room!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Çuf çuf! Araba vagonu göreve hazır!",
+     "en": "Choo choo! The car wagon is ready for duty!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ben sarı sepeti getiriyorum, içine arabaları koyalım.",
+     "en": "I am bringing the yellow basket, let's put the cars inside.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı araba kutusuna gidiyor, vınn!",
+     "en": "The red car goes to its box, vroom!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Mavi araba da yanına park etti bile!",
+     "en": "The blue car parked right next to it already!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oyuncakları evine götürmek çok eğlenceliymiş!",
+     "en": "Taking toys to their home is so much fun!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  },
+  {
+   "bg": "home_living",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Hadi arabaları sayarak sepete koyalım Efe!",
+     "en": "Let's count the cars as we put them in the basket, Efe!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Bir, iki, üç! Üç araba kutuda!",
+     "en": "One, two, three! Three cars in the box!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Dört ve beş! Beş araba da dinlenmeye geçti.",
+     "en": "Four and five! Five cars are now resting.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Çocuklar arkadaşlarına sordu.",
+     "en": "The children asked their friends.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Siz de bizimle beşe kadar saydınız mı?",
+     "en": "Did you count to five with us too?",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Pelüş ayıcığı da koltuğun üzerine oturttuk!",
+     "en": "We placed the teddy bear neatly on the sofa too!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bakın, salonun halısı pırıl pırıl açıldı!",
+     "en": "Look, the living room rug is completely clear and bright!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Artık kimse basıp kaymayacak abla!",
+     "en": "No one will step on toys and slip anymore, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "point",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Şimdi sıra dağılan yatak odasını toplamaktaydı.",
+     "en": "Now it was time to tidy up the messy bedroom.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Bak Efe, bloklar hâlâ yerde duruyor.",
+     "en": "Look Efe, the blocks are still on the floor.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Oyuncak Treni yatak odası istasyonuna geldi!",
+     "en": "The Toy Train arrived at the bedroom station!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Büyük mavi kutu blokların evi olsun.",
+     "en": "Let the big blue bin be the blocks' home.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Büyük blokları kutuya hemen atıyorum!",
+     "en": "I am putting the big blocks into the bin right away!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Küçük blokları da ben topluyorum Efe.",
+     "en": "And I will pick up the small blocks, Efe.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Birlikte yapınca ne kadar çabuk bitti!",
+     "en": "It finished so quickly when we did it together!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "mina",
+     "text": "Renklerine göre ayırmak çok güzel bir fikir oldu.",
+     "en": "Sorting them by color was a great idea.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kırmızı bloklar burada, sarılar şurada!",
+     "en": "Red blocks are here, yellow ones are there!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Kitapları da kitap rafına düzgünce dizelim.",
+     "en": "Let's also arrange the books neatly on the shelf.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Masal kitapları da raflarına yerleşti bile!",
+     "en": "The storybooks are already settled on their shelf!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Birlikte çalışmak işleri ne kadar kolaylaştırıyor.",
+     "en": "Working together makes everything so much easier.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hem kolay hem de çok eğlenceli abla!",
+     "en": "Both easy and super fun, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "anlatici",
+     "text": "Odayı toplarken Efe'nin gözü yatağın altına takıldı.",
+     "en": "While tidying the room, Efe noticed something under the bed.",
+     "pose": {}
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    0.02
+   ]
+  },
+  {
+   "bg": "kids_bedroom",
+   "chars": {
+    "mina": "left",
+    "efe": "right"
+   },
+   "start_pose": {
+    "mina": "point",
+    "efe": "happy"
+   },
+   "lines": [
+    {
+     "who": "efe",
+     "text": "Abla, bak yatağın altında ne var!",
+     "en": "Mina, look what is under the bed!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bu senin yeşil küçük dinozorun Efe!",
+     "en": "It is your little green dinosaur, Efe!",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yaşasın! Kayıp dinozorumu buldum!",
+     "en": "Yay! I found my lost dinosaur!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Odayı toplayınca hemen ortaya çıktı değil mi?",
+     "en": "It showed up right away once we cleaned the room, didn't it?",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Evet! Dinozorumu hemen oyuncak rafına koyuyorum.",
+     "en": "Yes! I am putting my dinosaur on the toy shelf now.",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Odamız ne kadar geniş ve ferah oldu.",
+     "en": "Our room has become so spacious and open.",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Artık her oyuncağın yeri belli abla!",
+     "en": "Now every toy has its own special place, Mina!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    -0.02
+   ]
+  },
+  {
+   "bg": "home_garden",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "wave",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Çocuklar sevinçle bahçeye, Hasan Dede'nin yanına koştular.",
+     "en": "The children joyfully ran out to the garden to Grandpa Hasan.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Hasan Dede! Bütün oyuncaklar evine döndü!",
+     "en": "Grandpa Hasan! All the toys have gone home!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Aferin size çalışkan tren makinisti ve şefi!",
+     "en": "Well done, hard-working train driver and conductor!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Yeşil dinozorumu da bulup rafına koydum!",
+     "en": "I also found my green dinosaur and put it on its shelf!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Eşyalar toplanınca aranan her şey kolayca bulunur.",
+     "en": "When items are put away, everything you look for is found easily.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Ve odamız yürümek için çok güvenli oldu!",
+     "en": "And our room has become very safe to walk in!",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Temiz ve düzenli bir oda her zaman neşe verir.",
+     "en": "A clean and tidy room always brings happiness.",
+     "pose": {
+      "dede": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.0,
+    1.04,
+    -0.02
+   ]
+  },
+  {
+   "bg": "park_sunset",
+   "chars": {
+    "mina": "left",
+    "efe": "midleft",
+    "dede": "right"
+   },
+   "start_pose": {
+    "mina": "talk",
+    "efe": "happy",
+    "dede": "happy"
+   },
+   "lines": [
+    {
+     "who": "anlatici",
+     "text": "Gün batarken parkta neşeyle dinlendiler.",
+     "en": "As the sun set, they rested happily in the park.",
+     "pose": {}
+    },
+    {
+     "who": "mina",
+     "text": "Oyuncakları toplamak gerçekten çok eğlenceli bir oyunmuş.",
+     "en": "Cleaning up toys really is a very fun game.",
+     "pose": {
+      "mina": "talk"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Ben her gün oyuncaklarımı toplayacağım!",
+     "en": "I will clean up my toys every day!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Düzenli olmak hepimizi çok mutlu eder çocuklar.",
+     "en": "Being tidy makes all of us very happy, children.",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Arkadaşlar, siz de oyuncaklarınızı yuvalarına koyuyor musunuz?",
+     "en": "Friends, do you put your toys back in their homes too?",
+     "pose": {
+      "mina": "point"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Kendi odanızı toplamak harika bir duygu!",
+     "en": "Cleaning your own room feels wonderful!",
+     "pose": {
+      "efe": "happy"
+     }
+    },
+    {
+     "who": "mina",
+     "text": "Bir sonraki maceramızda görüşmek üzere!",
+     "en": "See you in our next adventure!",
+     "pose": {
+      "mina": "wave"
+     }
+    },
+    {
+     "who": "dede",
+     "text": "Kendinize çok iyi bakın küçük dostlar!",
+     "en": "Take good care of yourselves, little friends!",
+     "pose": {
+      "dede": "happy"
+     }
+    },
+    {
+     "who": "efe",
+     "text": "Hoşça kalın arkadaşlar!",
+     "en": "Goodbye friends!",
+     "pose": {
+      "efe": "happy"
+     }
+    }
+   ],
+   "cam": [
+    1.04,
+    1.0,
+    0.02
+   ]
+  }
+ ],
+ "topic": "oyuncakları toplamak"
+}
